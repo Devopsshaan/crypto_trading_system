@@ -1,0 +1,7 @@
+
+{"timestamp": "2026-03-14T13:41:36.359686+00:00", "mode": "PAPER", "symbol": "BNB/USDT:USDT", "side": "BUY", "amount": 2.039048, "entry_price": 653.9, "stop_loss": 651.94, "take_profit": 659.79, "status": "PAPER_FILLED"}
+{"timestamp": "2026-03-14T13:41:36.375096+00:00", "mode": "PAPER", "symbol": "DOGE/USDT:USDT", "side": "BUY", "amount": 13986.503025, "entry_price": 0.09533, "stop_loss": 0.095044, "take_profit": 0.096188, "status": "PAPER_FILLED"}
+{"timestamp": "2026-03-14T13:41:36.381294+00:00", "mode": "PAPER", "symbol": "BTC/USDT:USDT", "side": "BUY", "amount": 0.018824, "entry_price": 70830.6, "stop_loss": 70618.11, "take_profit": 71468.08, "status": "PAPER_FILLED"}
+{"timestamp": "2026-03-14T13:57:07.866485+00:00", "mode": "PAPER", "symbol": "BNB/USDT:USDT", "side": "BUY", "amount": 1.996531, "entry_price": 653.5, "stop_loss": 651.54, "take_profit": 659.38, "status": "PAPER_FILLED"}
+{"timestamp": "2026-03-14T13:57:07.867486+00:00", "mode": "PAPER", "symbol": "ADA/USDT:USDT", "side": "BUY", "amount": 4998.978289, "entry_price": 0.261, "stop_loss": 0.260217, "take_profit": 0.263349, "status": "PAPER_FILLED"}
+{"timestamp": "2026-03-14T13:57:07.868421+00:00", "mode": "PAPER", "symbol": "BTC/USDT:USDT", "side": "BUY", "amount": 0.018428, "entry_price": 70801.3, "stop_loss": 70588.9, "take_profit": 71438.51, "status": "PAPER_FILLED"}

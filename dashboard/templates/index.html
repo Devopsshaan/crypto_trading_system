@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NeuralTrade — AI Crypto Engine</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/static/css/style.css">
+</head>
+<body>
+    <nav class="topnav">
+        <div class="nav-left">
+            <div class="logo">
+                <div class="logo-icon"><svg width="32" height="32" viewBox="0 0 32 32" fill="none"><defs><linearGradient id="lg" x1="0" y1="0" x2="32" y2="32"><stop offset="0%" stop-color="#00F0FF"/><stop offset="100%" stop-color="#8B5CF6"/></linearGradient></defs><rect width="32" height="32" rx="8" fill="url(#lg)"/><path d="M8 20L12 13L16 16.5L20 11L24 14" stroke="#fff" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/><circle cx="24" cy="14" r="2.5" fill="#fff" opacity=".9"/></svg></div>
+                <span class="logo-text">Neural<span class="logo-accent">Trade</span></span>
+            </div>
+            <div class="nav-tabs">
+                <button class="nav-tab active" data-tab="overview">Overview</button>
+                <button class="nav-tab" data-tab="trades">Trades</button>
+                <button class="nav-tab" data-tab="analytics">Analytics</button>
+            </div>
+        </div>
+        <div class="nav-right">
+            <div class="status-pill" id="botStatus"><span class="status-dot"></span><span class="status-text">Connecting...</span></div>
+            <div class="nav-balance" id="navBalance">$—</div>
+            <div class="nav-time" id="navTime"></div>
+        </div>
+    </nav>
+    <main class="main-content">
+        <div class="tab-content active" id="tab-overview">
+            <div class="metrics-row">
+                <div class="metric-card accent"><div class="metric-icon">💰</div><div class="metric-label">PORTFOLIO VALUE</div><div class="metric-value" id="mBalance">$200.00</div><div class="metric-change" id="mBalanceChange">+$0.00 (0.0%)</div></div>
+                <div class="metric-card"><div class="metric-icon">📊</div><div class="metric-label">TOTAL P&L</div><div class="metric-value" id="mPnl">$0.00</div><div class="metric-sub" id="mPnlSub">0 resolved</div></div>
+                <div class="metric-card"><div class="metric-icon">🎯</div><div class="metric-label">WIN RATE</div><div class="metric-value" id="mWinRate">0%</div><div class="metric-sub" id="mWinLoss">0W / 0L</div></div>
+                <div class="metric-card"><div class="metric-icon">⚡</div><div class="metric-label">PROFIT FACTOR</div><div class="metric-value" id="mProfitFactor">—</div><div class="metric-sub" id="mProfitFactorSub">Gross P / L</div></div>
+                <div class="metric-card"><div class="metric-icon">🏆</div><div class="metric-label">BEST TRADE</div><div class="metric-value green" id="mBest">$0.00</div><div class="metric-sub">Single max</div></div>
+                <div class="metric-card"><div class="metric-icon">📉</div><div class="metric-label">MAX DRAWDOWN</div><div class="metric-value red" id="mDrawdown">0.0%</div><div class="metric-sub">Peak→trough</div></div>
+            </div>
+            <div class="charts-row">
+                <div class="chart-panel main-chart"><div class="panel-header"><h3>Equity Curve</h3><div class="panel-badges"><span class="badge live-badge"><span class="live-dot"></span>LIVE</span><span class="badge">PAPER</span></div></div><div class="chart-wrapper"><canvas id="equityChart"></canvas></div></div>
+                <div class="chart-panel side-chart"><div class="panel-header"><h3>Daily P&L</h3></div><div class="chart-wrapper"><canvas id="dailyPnlChart"></canvas></div></div>
+            </div>
+            <!-- ─── LIVE POSITIONS ─── -->
+            <div class="live-positions-section">
+                <div class="panel-header" style="padding:14px 18px;border-bottom:1px solid var(--border)">
+                    <h3>⚡ Live Positions <span class="live-count" id="liveCount">0</span></h3>
+                    <div class="live-total" id="liveTotalPnl">uPnL: $0.00</div>
+                </div>
+                <div class="positions-grid" id="positionsGrid">
+                    <div class="no-positions">No open positions — waiting for signals...</div>
+                </div>
+            </div>
+            <div class="bottom-row">
+                <div class="panel markets-panel"><div class="panel-header"><h3>Market Performance</h3></div><table class="data-table" id="marketsTable"><thead><tr><th>Market</th><th>Trades</th><th>Win Rate</th><th class="right">P&L</th></tr></thead><tbody></tbody></table></div>
+                <div class="panel recent-panel"><div class="panel-header"><h3>Recent Trades</h3><button class="btn-sm" onclick="switchTab('trades')">View All →</button></div><table class="data-table" id="recentTradesTable"><thead><tr><th>Time</th><th>Pair</th><th>Side</th><th>Entry</th><th>Result</th><th class="right">P&L</th></tr></thead><tbody></tbody></table></div>
+            </div>
+        </div>
+        <div class="tab-content" id="tab-trades">
+            <div class="trades-header"><h2>Trade History</h2><div class="trades-filters"><select id="filterSide" onchange="loadTrades()"><option value="">All Sides</option><option value="BUY">Long</option><option value="SELL">Short</option></select><select id="filterOutcome" onchange="loadTrades()"><option value="">All</option><option value="WIN">Wins</option><option value="LOSS">Losses</option><option value="OPEN">Open</option></select></div></div>
+            <div class="panel"><table class="data-table full-trade-table" id="allTradesTable"><thead><tr><th>Date/Time</th><th>Pair</th><th>Side</th><th class="right">Entry</th><th class="right">Exit</th><th class="right">SL</th><th class="right">TP</th><th class="right">Size</th><th>Result</th><th class="right">P&L</th></tr></thead><tbody></tbody></table><div class="pagination" id="pagination"></div></div>
+        </div>
+        <div class="tab-content" id="tab-analytics">
+            <div class="analytics-grid">
+                <div class="panel"><div class="panel-header"><h3>Hourly Performance</h3></div><div class="chart-wrapper"><canvas id="hourlyChart"></canvas></div></div>
+                <div class="panel"><div class="panel-header"><h3>Win/Loss</h3></div><div class="chart-wrapper"><canvas id="winLossChart"></canvas></div></div>
+                <div class="panel"><div class="panel-header"><h3>P&L Distribution</h3></div><div class="chart-wrapper"><canvas id="pnlDistChart"></canvas></div></div>
+                <div class="panel"><div class="panel-header"><h3>Market P&L</h3></div><div class="chart-wrapper"><canvas id="marketPnlChart"></canvas></div></div>
+            </div>
+            <div class="stats-grid">
+                <div class="stat-card"><div class="stat-label">Total Trades</div><div class="stat-value" id="sTotalTrades">0</div></div>
+                <div class="stat-card"><div class="stat-label">Resolved</div><div class="stat-value" id="sResolved">0</div></div>
+                <div class="stat-card"><div class="stat-label">Open</div><div class="stat-value" id="sPending">0</div></div>
+                <div class="stat-card"><div class="stat-label">Avg P&L</div><div class="stat-value" id="sAvgPnl">$0</div></div>
+                <div class="stat-card"><div class="stat-label">Worst Trade</div><div class="stat-value" id="sWorstTrade">$0</div></div>
+                <div class="stat-card"><div class="stat-label">Gross Profit</div><div class="stat-value green" id="sGrossProfit">$0</div></div>
+                <div class="stat-card"><div class="stat-label">Gross Loss</div><div class="stat-value red" id="sGrossLoss">$0</div></div>
+                <div class="stat-card"><div class="stat-label">Win Streak</div><div class="stat-value" id="sConsecWins">0</div></div>
+                <div class="stat-card"><div class="stat-label">Loss Streak</div><div class="stat-value" id="sConsecLosses">0</div></div>
+            </div>
+            <div class="panel" style="margin-top:20px"><div class="panel-header"><h3>Daily Breakdown</h3></div><table class="data-table" id="dailyTable"><thead><tr><th>Date</th><th>Trades</th><th>Wins</th><th>Losses</th><th>Win Rate</th><th class="right">P&L</th><th>Performance</th></tr></thead><tbody></tbody></table></div>
+        </div>
+    </main>
+    <footer class="footer">
+        <div class="footer-left"><span class="footer-item">🤖 AI Paper Trading</span><span class="footer-divider">·</span><span class="footer-item">$<span id="footerStartBal">200</span> start</span><span class="footer-divider">·</span><span class="footer-item">8 Markets</span><span class="footer-divider">·</span><span class="footer-item">20x Lev</span></div>
+        <div class="footer-right"><span class="footer-item" id="footerRefresh">⚡ 8s refresh</span><span class="footer-divider">·</span><span class="footer-item" id="footerLastUpdate">—</span></div>
+    </footer>
+    <script src="/static/js/app.js"></script>
+</body>
+</html>

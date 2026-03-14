@@ -1,0 +1,3 @@
+
+{"timestamp": "2026-03-14T16:44:07.584315+00:00", "mode": "SWING_PAPER", "symbol": "BTC/USDT:USDT", "side": "SELL", "amount": 0.00348513, "entry_price": 70614.7, "stop_loss": 72336.3, "take_profit": 65449.9, "leverage": 5, "status": "PAPER_FILLED"}
+{"timestamp": "2026-03-14T16:44:10.100269+00:00", "mode": "SWING_PAPER", "symbol": "ETH/USDT:USDT", "side": "SELL", "amount": 0.0890576, "entry_price": 2074.7, "stop_loss": 2142.07, "take_profit": 1872.58, "leverage": 5, "status": "PAPER_FILLED"}

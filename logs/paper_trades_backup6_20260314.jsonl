@@ -1,0 +1,4 @@
+
+{"timestamp": "2026-03-14T16:27:04.606643+00:00", "mode": "PAPER", "symbol": "BTC/USDT:USDT", "side": "SELL", "amount": 0.02655, "entry_price": 70579.1, "stop_loss": 70729.76, "take_profit": 70428.44, "status": "PAPER_FILLED"}
+{"timestamp": "2026-03-14T16:27:04.651604+00:00", "mode": "PAPER", "symbol": "ETH/USDT:USDT", "side": "SELL", "amount": 0.713202, "entry_price": 2073.19, "stop_loss": 2078.8, "take_profit": 2067.58, "status": "PAPER_FILLED"}
+{"timestamp": "2026-03-14T16:33:20.923971+00:00", "mode": "PAPER", "symbol": "BNB/USDT:USDT", "side": "BUY", "amount": 3.474692, "entry_price": 653.3, "stop_loss": 652.15, "take_profit": 654.45, "status": "PAPER_FILLED"}

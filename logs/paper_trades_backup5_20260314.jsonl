@@ -1,0 +1,5 @@
+
+{"timestamp": "2026-03-14T15:59:08.652812+00:00", "mode": "PAPER", "symbol": "SOL/USDT:USDT", "side": "SELL", "amount": 15.376927, "entry_price": 86.71, "stop_loss": 86.9701, "take_profit": 86.1897, "status": "PAPER_FILLED"}
+{"timestamp": "2026-03-14T15:59:08.655426+00:00", "mode": "PAPER", "symbol": "AVAX/USDT:USDT", "side": "SELL", "amount": 139.382535, "entry_price": 9.566, "stop_loss": 9.5947, "take_profit": 9.5086, "status": "PAPER_FILLED"}
+{"timestamp": "2026-03-14T15:59:08.656970+00:00", "mode": "PAPER", "symbol": "DOGE/USDT:USDT", "side": "SELL", "amount": 14049.877064, "entry_price": 0.0949, "stop_loss": 0.095185, "take_profit": 0.094331, "status": "PAPER_FILLED"}
+{"timestamp": "2026-03-14T16:19:44.595240+00:00", "mode": "PAPER", "symbol": "BNB/USDT:USDT", "side": "BUY", "amount": 2.036759, "entry_price": 652.9, "stop_loss": 650.94, "take_profit": 656.82, "status": "PAPER_FILLED"}
