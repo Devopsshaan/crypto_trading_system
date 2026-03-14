@@ -8998,3 +8998,728 @@
 2026-03-14 23:03:31,900 [INFO] bot:   ⛔ SKIP ADA: max 3 open trades reached
 2026-03-14 23:03:31,901 [INFO] bot: Scan #96 done. 8 signals, 6 actionable.
 2026-03-14 23:03:31,901 [INFO] bot: Next scan in 60s …
+2026-03-14 23:04:32,004 [INFO] data.pipeline: Fetching 10 bars of DOGE/USDT:USDT 5m …
+2026-03-14 23:04:32,311 [INFO] data.pipeline: Fetching 10 bars of XRP/USDT:USDT 5m …
+2026-03-14 23:04:32,618 [INFO] data.pipeline: Fetching 10 bars of AVAX/USDT:USDT 5m …
+2026-03-14 23:04:32,722 [INFO] bot:   📊 OPEN SELL AVAX: entry=9.56 now=9.56 uPnL=$+0.81 net=$+0.19 (3m)
+2026-03-14 23:04:32,724 [INFO] bot:   📊 OPEN SELL XRP: entry=1.39 now=1.39 uPnL=$+0.11 net=$-0.51 (2m)
+2026-03-14 23:04:32,725 [INFO] bot:   📊 OPEN SELL DOGE: entry=0.09 now=0.09 uPnL=$-0.16 net=$-0.79 (2m)
+2026-03-14 23:04:36,778 [INFO] scanner: ========================================================================
+2026-03-14 23:04:36,778 [INFO] scanner:   MARKET SCANNER — 8 symbols scanned
+2026-03-14 23:04:36,778 [INFO] scanner: ========================================================================
+2026-03-14 23:04:36,778 [INFO] scanner:   RANK  SYM     PROB   DIR    GRADE  SCORE  REASON
+2026-03-14 23:04:36,778 [INFO] scanner: ------------------------------------------------------------------------
+2026-03-14 23:04:36,779 [INFO] scanner:   #1    🔴XRP   0.36  SHORT  A      151.1  Prob=0.36 | trend-aligned + conf=28% + vol-spike(0
+2026-03-14 23:04:36,779 [INFO] scanner:   #2    🔴DOGE  0.36  SHORT  A      149.1  Prob=0.36 | trend-aligned + conf=28% + VWAP✓ + Hur
+2026-03-14 23:04:36,779 [INFO] scanner:   #3    🔴BNB   0.38  SHORT  A      147.0  Prob=0.38 | trend-aligned + conf=24% + vol-spike(1
+2026-03-14 23:04:36,779 [INFO] scanner:   #4    🔴BTC   0.40  SHORT  A      145.2  Prob=0.40 | trend-aligned + conf=20% + VWAP✓ + Hur
+2026-03-14 23:04:36,779 [INFO] scanner:   #5    🔴AVAX  0.27  SHORT  B+     144.6  Prob=0.27 | trend-aligned + conf=46% + vol-spike(0
+2026-03-14 23:04:36,780 [INFO] scanner:   #6    🔴ADA   0.33  SHORT  B+     136.7  Prob=0.33 | trend-aligned + conf=33% + VWAP✓ + Hur
+2026-03-14 23:04:36,780 [INFO] scanner:   #7    ⚪ETH   0.35  NONE   SKIP     0.0  Prob=0.35 | counter-trend + conf=30% + Hurst=0.59↑
+2026-03-14 23:04:36,780 [INFO] scanner:   #8    ⚪SOL   0.33  NONE   SKIP     0.0  Prob=0.33 | counter-trend + conf=34% + Hurst=0.63↑
+2026-03-14 23:04:36,780 [INFO] scanner: ------------------------------------------------------------------------
+2026-03-14 23:04:36,780 [INFO] scanner:   Actionable: 6 / 8 signals
+2026-03-14 23:04:36,781 [INFO] scanner: ========================================================================
+2026-03-14 23:04:36,782 [INFO] bot:   ⛔ SKIP BNB: max 3 open trades reached
+2026-03-14 23:04:36,782 [INFO] bot:   ⛔ SKIP BTC: max 3 open trades reached
+2026-03-14 23:04:36,782 [INFO] bot:   ⛔ SKIP ADA: max 3 open trades reached
+2026-03-14 23:04:36,782 [INFO] bot: Scan #97 done. 8 signals, 6 actionable.
+2026-03-14 23:04:36,782 [INFO] bot: Next scan in 60s …
+2026-03-14 23:05:36,926 [INFO] data.pipeline: Fetching 10 bars of DOGE/USDT:USDT 5m …
+2026-03-14 23:05:37,336 [INFO] data.pipeline: Fetching 10 bars of XRP/USDT:USDT 5m …
+2026-03-14 23:05:37,950 [INFO] data.pipeline: Fetching 10 bars of AVAX/USDT:USDT 5m …
+2026-03-14 23:05:38,258 [INFO] bot:   📊 OPEN SELL AVAX: entry=9.56 now=9.56 uPnL=$+0.32 net=$-0.30 (4m)
+2026-03-14 23:05:38,260 [INFO] bot:   📊 OPEN SELL XRP: entry=1.39 now=1.39 uPnL=$-0.22 net=$-0.85 (3m)
+2026-03-14 23:05:38,260 [INFO] bot:   📊 OPEN SELL DOGE: entry=0.09 now=0.09 uPnL=$-0.16 net=$-0.79 (3m)
+2026-03-14 23:05:41,717 [INFO] scanner: ========================================================================
+2026-03-14 23:05:41,717 [INFO] scanner:   MARKET SCANNER — 8 symbols scanned
+2026-03-14 23:05:41,718 [INFO] scanner: ========================================================================
+2026-03-14 23:05:41,718 [INFO] scanner:   RANK  SYM     PROB   DIR    GRADE  SCORE  REASON
+2026-03-14 23:05:41,718 [INFO] scanner: ------------------------------------------------------------------------
+2026-03-14 23:05:41,718 [INFO] scanner:   #1    🔴XRP   0.36  SHORT  A      151.1  Prob=0.36 | trend-aligned + conf=28% + vol-spike(0
+2026-03-14 23:05:41,718 [INFO] scanner:   #2    🔴DOGE  0.36  SHORT  A      149.1  Prob=0.36 | trend-aligned + conf=28% + VWAP✓ + Hur
+2026-03-14 23:05:41,719 [INFO] scanner:   #3    🔴BNB   0.38  SHORT  A      147.0  Prob=0.38 | trend-aligned + conf=24% + vol-spike(1
+2026-03-14 23:05:41,719 [INFO] scanner:   #4    🔴BTC   0.40  SHORT  A      145.2  Prob=0.40 | trend-aligned + conf=20% + VWAP✓ + Hur
+2026-03-14 23:05:41,719 [INFO] scanner:   #5    🔴AVAX  0.27  SHORT  B+     144.6  Prob=0.27 | trend-aligned + conf=46% + vol-spike(0
+2026-03-14 23:05:41,719 [INFO] scanner:   #6    🔴ADA   0.33  SHORT  B+     136.7  Prob=0.33 | trend-aligned + conf=33% + VWAP✓ + Hur
+2026-03-14 23:05:41,719 [INFO] scanner:   #7    ⚪ETH   0.35  NONE   SKIP     0.0  Prob=0.35 | counter-trend + conf=30% + Hurst=0.59↑
+2026-03-14 23:05:41,720 [INFO] scanner:   #8    ⚪SOL   0.33  NONE   SKIP     0.0  Prob=0.33 | counter-trend + conf=34% + Hurst=0.63↑
+2026-03-14 23:05:41,720 [INFO] scanner: ------------------------------------------------------------------------
+2026-03-14 23:05:41,720 [INFO] scanner:   Actionable: 6 / 8 signals
+2026-03-14 23:05:41,720 [INFO] scanner: ========================================================================
+2026-03-14 23:05:41,721 [INFO] bot:   ⛔ SKIP BNB: max 3 open trades reached
+2026-03-14 23:05:41,721 [INFO] bot:   ⛔ SKIP BTC: max 3 open trades reached
+2026-03-14 23:05:41,722 [INFO] bot:   ⛔ SKIP ADA: max 3 open trades reached
+2026-03-14 23:05:41,722 [INFO] bot: Scan #98 done. 8 signals, 6 actionable.
+2026-03-14 23:05:41,722 [INFO] bot: Next scan in 60s …
+2026-03-14 23:06:32,766 [INFO] data.pipeline: Fetching 20 bars of BTC/USDT:USDT 4h …
+2026-03-14 23:06:32,856 [INFO] swing:   📊 SWING OPEN SELL BTC: entry=70614.7000 now=70599.5000 uPnL=$+0.05 (2.4h)
+2026-03-14 23:06:32,856 [INFO] data.pipeline: Fetching 20 bars of ETH/USDT:USDT 4h …
+2026-03-14 23:06:32,960 [INFO] swing:   📊 SWING OPEN SELL ETH: entry=2074.7000 now=2074.8200 uPnL=$-0.01 (2.4h)
+2026-03-14 23:06:32,960 [INFO] data.pipeline: Fetching 500 bars of SOL/USDT:USDT 4h …
+2026-03-14 23:06:33,661 [INFO] swing:   ⛔ SWING SKIP SOL: max 2 SHORT
+2026-03-14 23:06:33,661 [INFO] data.pipeline: Fetching 500 bars of BNB/USDT:USDT 4h …
+2026-03-14 23:06:34,281 [INFO] swing:   ⛔ SWING SKIP BNB: max 2 SHORT
+2026-03-14 23:06:34,281 [INFO] data.pipeline: Fetching 500 bars of XRP/USDT:USDT 4h …
+2026-03-14 23:06:34,887 [INFO] swing:   ⛔ SWING SKIP XRP: max 2 SHORT
+2026-03-14 23:06:34,888 [INFO] data.pipeline: Fetching 500 bars of DOGE/USDT:USDT 4h …
+2026-03-14 23:06:35,557 [INFO] swing:   ⛔ SWING SKIP DOGE: max 2 SHORT
+2026-03-14 23:06:35,557 [INFO] data.pipeline: Fetching 500 bars of ADA/USDT:USDT 4h …
+2026-03-14 23:06:36,170 [INFO] swing:   ⛔ SWING SKIP ADA: max 2 SHORT
+2026-03-14 23:06:36,171 [INFO] data.pipeline: Fetching 500 bars of AVAX/USDT:USDT 4h …
+2026-03-14 23:06:36,800 [INFO] swing:   ⛔ SWING SKIP AVAX: max 2 SHORT
+2026-03-14 23:06:36,801 [INFO] swing: Swing scan #8: 0 new trades, 2 open positions
+2026-03-14 23:06:41,956 [INFO] data.pipeline: Fetching 10 bars of DOGE/USDT:USDT 5m …
+2026-03-14 23:06:42,473 [INFO] data.pipeline: Fetching 10 bars of XRP/USDT:USDT 5m …
+2026-03-14 23:06:42,872 [INFO] data.pipeline: Fetching 10 bars of AVAX/USDT:USDT 5m …
+2026-03-14 23:06:42,985 [INFO] bot:   📊 OPEN SELL AVAX: entry=9.56 now=9.56 uPnL=$+0.16 net=$-0.46 (5m)
+2026-03-14 23:06:42,986 [INFO] bot:   📊 OPEN SELL XRP: entry=1.39 now=1.39 uPnL=$-0.56 net=$-1.18 (4m)
+2026-03-14 23:06:42,986 [INFO] bot:   📊 OPEN SELL DOGE: entry=0.09 now=0.09 uPnL=$-0.49 net=$-1.12 (4m)
+2026-03-14 23:06:44,787 [INFO] scanner: ========================================================================
+2026-03-14 23:06:44,787 [INFO] scanner:   MARKET SCANNER — 8 symbols scanned
+2026-03-14 23:06:44,788 [INFO] scanner: ========================================================================
+2026-03-14 23:06:44,788 [INFO] scanner:   RANK  SYM     PROB   DIR    GRADE  SCORE  REASON
+2026-03-14 23:06:44,788 [INFO] scanner: ------------------------------------------------------------------------
+2026-03-14 23:06:44,788 [INFO] scanner:   #1    🔴XRP   0.36  SHORT  A      151.1  Prob=0.36 | trend-aligned + conf=28% + vol-spike(0
+2026-03-14 23:06:44,788 [INFO] scanner:   #2    🔴DOGE  0.36  SHORT  A      149.1  Prob=0.36 | trend-aligned + conf=28% + VWAP✓ + Hur
+2026-03-14 23:06:44,788 [INFO] scanner:   #3    🔴BNB   0.38  SHORT  A      147.0  Prob=0.38 | trend-aligned + conf=24% + vol-spike(1
+2026-03-14 23:06:44,788 [INFO] scanner:   #4    🔴BTC   0.40  SHORT  A      145.2  Prob=0.40 | trend-aligned + conf=20% + VWAP✓ + Hur
+2026-03-14 23:06:44,788 [INFO] scanner:   #5    🔴AVAX  0.27  SHORT  B+     144.6  Prob=0.27 | trend-aligned + conf=46% + vol-spike(0
+2026-03-14 23:06:44,789 [INFO] scanner:   #6    🔴ADA   0.33  SHORT  B+     136.7  Prob=0.33 | trend-aligned + conf=33% + VWAP✓ + Hur
+2026-03-14 23:06:44,789 [INFO] scanner:   #7    ⚪ETH   0.35  NONE   SKIP     0.0  Prob=0.35 | counter-trend + conf=30% + Hurst=0.59↑
+2026-03-14 23:06:44,789 [INFO] scanner:   #8    ⚪SOL   0.33  NONE   SKIP     0.0  Prob=0.33 | counter-trend + conf=34% + Hurst=0.63↑
+2026-03-14 23:06:44,789 [INFO] scanner: ------------------------------------------------------------------------
+2026-03-14 23:06:44,789 [INFO] scanner:   Actionable: 6 / 8 signals
+2026-03-14 23:06:44,789 [INFO] scanner: ========================================================================
+2026-03-14 23:06:44,790 [INFO] bot:   ⛔ SKIP BNB: max 3 open trades reached
+2026-03-14 23:06:44,790 [INFO] bot:   ⛔ SKIP BTC: max 3 open trades reached
+2026-03-14 23:06:44,790 [INFO] bot:   ⛔ SKIP ADA: max 3 open trades reached
+2026-03-14 23:06:44,791 [INFO] bot: Scan #99 done. 8 signals, 6 actionable.
+2026-03-14 23:06:44,791 [INFO] bot: Next scan in 60s …
+2026-03-14 23:07:12,007 [INFO] data.pipeline: Fetching 300 bars of BTC/USDT:USDT 5m …
+2026-03-14 23:07:12,386 [INFO] data.pipeline: Saved 1086 bars → C:\Users\Mohsh\Documents\crypto_trading_system\data\raw\BTCUSDT_USDT_5m.csv
+2026-03-14 23:07:12,687 [INFO] data.pipeline: Fetching 300 bars of ETH/USDT:USDT 5m …
+2026-03-14 23:07:12,888 [INFO] data.pipeline: Saved 1086 bars → C:\Users\Mohsh\Documents\crypto_trading_system\data\raw\ETHUSDT_USDT_5m.csv
+2026-03-14 23:07:13,189 [INFO] data.pipeline: Fetching 300 bars of SOL/USDT:USDT 5m …
+2026-03-14 23:07:13,504 [INFO] data.pipeline: Saved 1086 bars → C:\Users\Mohsh\Documents\crypto_trading_system\data\raw\SOLUSDT_USDT_5m.csv
+2026-03-14 23:07:13,807 [INFO] data.pipeline: Fetching 300 bars of BNB/USDT:USDT 5m …
+2026-03-14 23:07:13,933 [INFO] data.pipeline: Saved 1086 bars → C:\Users\Mohsh\Documents\crypto_trading_system\data\raw\BNBUSDT_USDT_5m.csv
+2026-03-14 23:07:14,234 [INFO] data.pipeline: Fetching 300 bars of XRP/USDT:USDT 5m …
+2026-03-14 23:07:14,566 [INFO] data.pipeline: Saved 1086 bars → C:\Users\Mohsh\Documents\crypto_trading_system\data\raw\XRPUSDT_USDT_5m.csv
+2026-03-14 23:07:14,867 [INFO] data.pipeline: Fetching 300 bars of DOGE/USDT:USDT 5m …
+2026-03-14 23:07:14,976 [INFO] data.pipeline: Saved 1086 bars → C:\Users\Mohsh\Documents\crypto_trading_system\data\raw\DOGEUSDT_USDT_5m.csv
+2026-03-14 23:07:15,276 [INFO] data.pipeline: Fetching 300 bars of ADA/USDT:USDT 5m …
+2026-03-14 23:07:15,403 [INFO] data.pipeline: Saved 1086 bars → C:\Users\Mohsh\Documents\crypto_trading_system\data\raw\ADAUSDT_USDT_5m.csv
+2026-03-14 23:07:15,704 [INFO] data.pipeline: Fetching 300 bars of AVAX/USDT:USDT 5m …
+2026-03-14 23:07:16,000 [INFO] data.pipeline: Saved 1086 bars → C:\Users\Mohsh\Documents\crypto_trading_system\data\raw\AVAXUSDT_USDT_5m.csv
+2026-03-14 23:07:16,301 [INFO] data.collector: Data collection complete: 8 symbols, 8688 total bars
+2026-03-14 23:07:44,881 [INFO] data.pipeline: Fetching 10 bars of DOGE/USDT:USDT 5m …
+2026-03-14 23:07:45,081 [INFO] data.pipeline: Fetching 10 bars of XRP/USDT:USDT 5m …
+2026-03-14 23:07:45,404 [INFO] data.pipeline: Fetching 10 bars of AVAX/USDT:USDT 5m …
+2026-03-14 23:07:45,609 [INFO] bot:   📊 OPEN SELL AVAX: entry=9.56 now=9.56 uPnL=$+0.32 net=$-0.30 (6m)
+2026-03-14 23:07:45,610 [INFO] bot:   📊 OPEN SELL XRP: entry=1.39 now=1.39 uPnL=$-0.56 net=$-1.18 (5m)
+2026-03-14 23:07:45,611 [INFO] bot:   📊 OPEN SELL DOGE: entry=0.09 now=0.09 uPnL=$-0.16 net=$-0.79 (5m)
+2026-03-14 23:07:48,401 [INFO] scanner: ========================================================================
+2026-03-14 23:07:48,412 [INFO] scanner:   MARKET SCANNER — 8 symbols scanned
+2026-03-14 23:07:48,413 [INFO] scanner: ========================================================================
+2026-03-14 23:07:48,413 [INFO] scanner:   RANK  SYM     PROB   DIR    GRADE  SCORE  REASON
+2026-03-14 23:07:48,413 [INFO] scanner: ------------------------------------------------------------------------
+2026-03-14 23:07:48,413 [INFO] scanner:   #1    🔴AVAX  0.21  SHORT  A      163.7  Prob=0.21 | trend-aligned + conf=57% + VWAP✓ + Hur
+2026-03-14 23:07:48,413 [INFO] scanner:   #2    🔴BTC   0.19  SHORT  A      156.1  Prob=0.19 | trend-aligned + conf=62% + Hurst=0.59↑
+2026-03-14 23:07:48,413 [INFO] scanner:   #3    🔴BNB   0.29  SHORT  A      155.7  Prob=0.29 | trend-aligned + conf=41% + VWAP✓ + Hur
+2026-03-14 23:07:48,413 [INFO] scanner:   #4    🔴DOGE  0.37  SHORT  A      147.7  Prob=0.37 | trend-aligned + conf=25% + VWAP✓ + Hur
+2026-03-14 23:07:48,413 [INFO] scanner:   #5    🔴XRP   0.29  SHORT  A      146.3  Prob=0.29 | trend-aligned + conf=43% + Hurst=0.61↑
+2026-03-14 23:07:48,414 [INFO] scanner:   #6    🔴ADA   0.30  SHORT  B+     139.5  Prob=0.30 | trend-aligned + conf=39% + VWAP✓ + Hur
+2026-03-14 23:07:48,414 [INFO] scanner:   #7    ⚪ETH   0.27  NONE   SKIP     0.0  Prob=0.27 | counter-trend + conf=46% + Hurst=0.59↑
+2026-03-14 23:07:48,414 [INFO] scanner:   #8    ⚪SOL   0.21  NONE   SKIP     0.0  Prob=0.21 | counter-trend + conf=58% + Hurst=0.63↑
+2026-03-14 23:07:48,414 [INFO] scanner: ------------------------------------------------------------------------
+2026-03-14 23:07:48,414 [INFO] scanner:   Actionable: 6 / 8 signals
+2026-03-14 23:07:48,414 [INFO] scanner: ========================================================================
+2026-03-14 23:07:48,415 [INFO] bot:   ⛔ SKIP BTC: max 3 open trades reached
+2026-03-14 23:07:48,415 [INFO] bot:   ⛔ SKIP BNB: max 3 open trades reached
+2026-03-14 23:07:48,415 [INFO] bot:   ⛔ SKIP ADA: max 3 open trades reached
+2026-03-14 23:07:48,416 [INFO] bot: Scan #100 done. 8 signals, 6 actionable.
+2026-03-14 23:07:48,416 [INFO] bot: Next scan in 60s …
+2026-03-14 23:08:48,723 [INFO] data.pipeline: Fetching 10 bars of DOGE/USDT:USDT 5m …
+2026-03-14 23:08:49,338 [INFO] data.pipeline: Fetching 10 bars of XRP/USDT:USDT 5m …
+2026-03-14 23:08:49,953 [INFO] data.pipeline: Fetching 10 bars of AVAX/USDT:USDT 5m …
+2026-03-14 23:08:50,261 [INFO] bot:   📊 OPEN SELL AVAX: entry=9.56 now=9.56 uPnL=$+0.97 net=$+0.35 (7m)
+2026-03-14 23:08:50,262 [INFO] bot:   📊 OPEN SELL XRP: entry=1.39 now=1.39 uPnL=$-0.45 net=$-1.07 (6m)
+2026-03-14 23:08:50,263 [INFO] bot:   📊 OPEN SELL DOGE: entry=0.09 now=0.09 uPnL=$-0.16 net=$-0.79 (6m)
+2026-03-14 23:08:52,076 [INFO] scanner: ========================================================================
+2026-03-14 23:08:52,076 [INFO] scanner:   MARKET SCANNER — 8 symbols scanned
+2026-03-14 23:08:52,076 [INFO] scanner: ========================================================================
+2026-03-14 23:08:52,076 [INFO] scanner:   RANK  SYM     PROB   DIR    GRADE  SCORE  REASON
+2026-03-14 23:08:52,076 [INFO] scanner: ------------------------------------------------------------------------
+2026-03-14 23:08:52,076 [INFO] scanner:   #1    🔴AVAX  0.21  SHORT  A      163.7  Prob=0.21 | trend-aligned + conf=57% + VWAP✓ + Hur
+2026-03-14 23:08:52,077 [INFO] scanner:   #2    🔴BTC   0.19  SHORT  A      156.1  Prob=0.19 | trend-aligned + conf=62% + Hurst=0.59↑
+2026-03-14 23:08:52,077 [INFO] scanner:   #3    🔴BNB   0.29  SHORT  A      155.7  Prob=0.29 | trend-aligned + conf=41% + VWAP✓ + Hur
+2026-03-14 23:08:52,077 [INFO] scanner:   #4    🔴DOGE  0.37  SHORT  A      147.7  Prob=0.37 | trend-aligned + conf=25% + VWAP✓ + Hur
+2026-03-14 23:08:52,077 [INFO] scanner:   #5    🔴XRP   0.29  SHORT  A      146.3  Prob=0.29 | trend-aligned + conf=43% + Hurst=0.61↑
+2026-03-14 23:08:52,077 [INFO] scanner:   #6    🔴ADA   0.30  SHORT  B+     139.5  Prob=0.30 | trend-aligned + conf=39% + VWAP✓ + Hur
+2026-03-14 23:08:52,077 [INFO] scanner:   #7    ⚪ETH   0.27  NONE   SKIP     0.0  Prob=0.27 | counter-trend + conf=46% + Hurst=0.59↑
+2026-03-14 23:08:52,077 [INFO] scanner:   #8    ⚪SOL   0.21  NONE   SKIP     0.0  Prob=0.21 | counter-trend + conf=58% + Hurst=0.63↑
+2026-03-14 23:08:52,077 [INFO] scanner: ------------------------------------------------------------------------
+2026-03-14 23:08:52,077 [INFO] scanner:   Actionable: 6 / 8 signals
+2026-03-14 23:08:52,078 [INFO] scanner: ========================================================================
+2026-03-14 23:08:52,078 [INFO] bot:   ⛔ SKIP BTC: max 3 open trades reached
+2026-03-14 23:08:52,079 [INFO] bot:   ⛔ SKIP BNB: max 3 open trades reached
+2026-03-14 23:08:52,079 [INFO] bot:   ⛔ SKIP ADA: max 3 open trades reached
+2026-03-14 23:08:52,079 [INFO] bot: Scan #101 done. 8 signals, 6 actionable.
+2026-03-14 23:08:52,079 [INFO] bot: Next scan in 60s …
+2026-03-14 23:09:52,212 [INFO] data.pipeline: Fetching 10 bars of DOGE/USDT:USDT 5m …
+2026-03-14 23:09:52,622 [INFO] data.pipeline: Fetching 10 bars of XRP/USDT:USDT 5m …
+2026-03-14 23:09:53,139 [INFO] data.pipeline: Fetching 10 bars of AVAX/USDT:USDT 5m …
+2026-03-14 23:09:53,236 [INFO] bot:   📊 OPEN SELL AVAX: entry=9.56 now=9.56 uPnL=$+0.65 net=$+0.03 (9m)
+2026-03-14 23:09:53,237 [INFO] bot:   📊 OPEN SELL XRP: entry=1.39 now=1.39 uPnL=$-0.11 net=$-0.73 (7m)
+2026-03-14 23:09:53,237 [INFO] bot:   📊 OPEN SELL DOGE: entry=0.09 now=0.09 uPnL=$+0.16 net=$-0.46 (7m)
+2026-03-14 23:09:57,286 [INFO] scanner: ========================================================================
+2026-03-14 23:09:57,287 [INFO] scanner:   MARKET SCANNER — 8 symbols scanned
+2026-03-14 23:09:57,287 [INFO] scanner: ========================================================================
+2026-03-14 23:09:57,287 [INFO] scanner:   RANK  SYM     PROB   DIR    GRADE  SCORE  REASON
+2026-03-14 23:09:57,287 [INFO] scanner: ------------------------------------------------------------------------
+2026-03-14 23:09:57,287 [INFO] scanner:   #1    🔴AVAX  0.21  SHORT  A      163.7  Prob=0.21 | trend-aligned + conf=57% + VWAP✓ + Hur
+2026-03-14 23:09:57,288 [INFO] scanner:   #2    🔴BTC   0.19  SHORT  A      156.1  Prob=0.19 | trend-aligned + conf=62% + Hurst=0.59↑
+2026-03-14 23:09:57,288 [INFO] scanner:   #3    🔴BNB   0.29  SHORT  A      155.7  Prob=0.29 | trend-aligned + conf=41% + VWAP✓ + Hur
+2026-03-14 23:09:57,288 [INFO] scanner:   #4    🔴DOGE  0.37  SHORT  A      147.7  Prob=0.37 | trend-aligned + conf=25% + VWAP✓ + Hur
+2026-03-14 23:09:57,288 [INFO] scanner:   #5    🔴XRP   0.29  SHORT  A      146.3  Prob=0.29 | trend-aligned + conf=43% + Hurst=0.61↑
+2026-03-14 23:09:57,288 [INFO] scanner:   #6    🔴ADA   0.30  SHORT  B+     139.5  Prob=0.30 | trend-aligned + conf=39% + VWAP✓ + Hur
+2026-03-14 23:09:57,289 [INFO] scanner:   #7    ⚪ETH   0.27  NONE   SKIP     0.0  Prob=0.27 | counter-trend + conf=46% + Hurst=0.59↑
+2026-03-14 23:09:57,289 [INFO] scanner:   #8    ⚪SOL   0.21  NONE   SKIP     0.0  Prob=0.21 | counter-trend + conf=58% + Hurst=0.63↑
+2026-03-14 23:09:57,289 [INFO] scanner: ------------------------------------------------------------------------
+2026-03-14 23:09:57,289 [INFO] scanner:   Actionable: 6 / 8 signals
+2026-03-14 23:09:57,289 [INFO] scanner: ========================================================================
+2026-03-14 23:09:57,290 [INFO] bot:   ⛔ SKIP BTC: max 3 open trades reached
+2026-03-14 23:09:57,291 [INFO] bot:   ⛔ SKIP BNB: max 3 open trades reached
+2026-03-14 23:09:57,291 [INFO] bot:   ⛔ SKIP ADA: max 3 open trades reached
+2026-03-14 23:09:57,291 [INFO] bot: Scan #102 done. 8 signals, 6 actionable.
+2026-03-14 23:09:57,291 [INFO] bot: Next scan in 60s …
+2026-03-14 23:10:57,544 [INFO] data.pipeline: Fetching 10 bars of DOGE/USDT:USDT 5m …
+2026-03-14 23:10:58,158 [INFO] data.pipeline: Fetching 10 bars of XRP/USDT:USDT 5m …
+2026-03-14 23:10:58,466 [INFO] data.pipeline: Fetching 10 bars of AVAX/USDT:USDT 5m …
+2026-03-14 23:10:58,569 [INFO] bot:   📊 OPEN SELL AVAX: entry=9.56 now=9.56 uPnL=$+0.65 net=$+0.03 (10m)
+2026-03-14 23:10:58,571 [INFO] bot:   📊 OPEN SELL XRP: entry=1.39 now=1.39 uPnL=$-0.11 net=$-0.73 (9m)
+2026-03-14 23:10:58,571 [INFO] bot:   📊 OPEN SELL DOGE: entry=0.09 now=0.09 uPnL=$+0.00 net=$-0.62 (9m)
+2026-03-14 23:11:00,349 [INFO] scanner: ========================================================================
+2026-03-14 23:11:00,349 [INFO] scanner:   MARKET SCANNER — 8 symbols scanned
+2026-03-14 23:11:00,349 [INFO] scanner: ========================================================================
+2026-03-14 23:11:00,349 [INFO] scanner:   RANK  SYM     PROB   DIR    GRADE  SCORE  REASON
+2026-03-14 23:11:00,349 [INFO] scanner: ------------------------------------------------------------------------
+2026-03-14 23:11:00,350 [INFO] scanner:   #1    🔴AVAX  0.21  SHORT  A      163.7  Prob=0.21 | trend-aligned + conf=57% + VWAP✓ + Hur
+2026-03-14 23:11:00,350 [INFO] scanner:   #2    🔴BTC   0.19  SHORT  A      156.1  Prob=0.19 | trend-aligned + conf=62% + Hurst=0.59↑
+2026-03-14 23:11:00,350 [INFO] scanner:   #3    🔴BNB   0.29  SHORT  A      155.7  Prob=0.29 | trend-aligned + conf=41% + VWAP✓ + Hur
+2026-03-14 23:11:00,350 [INFO] scanner:   #4    🔴DOGE  0.37  SHORT  A      147.7  Prob=0.37 | trend-aligned + conf=25% + VWAP✓ + Hur
+2026-03-14 23:11:00,350 [INFO] scanner:   #5    🔴XRP   0.29  SHORT  A      146.3  Prob=0.29 | trend-aligned + conf=43% + Hurst=0.61↑
+2026-03-14 23:11:00,350 [INFO] scanner:   #6    🔴ADA   0.30  SHORT  B+     139.5  Prob=0.30 | trend-aligned + conf=39% + VWAP✓ + Hur
+2026-03-14 23:11:00,350 [INFO] scanner:   #7    ⚪ETH   0.27  NONE   SKIP     0.0  Prob=0.27 | counter-trend + conf=46% + Hurst=0.59↑
+2026-03-14 23:11:00,350 [INFO] scanner:   #8    ⚪SOL   0.21  NONE   SKIP     0.0  Prob=0.21 | counter-trend + conf=58% + Hurst=0.63↑
+2026-03-14 23:11:00,351 [INFO] scanner: ------------------------------------------------------------------------
+2026-03-14 23:11:00,351 [INFO] scanner:   Actionable: 6 / 8 signals
+2026-03-14 23:11:00,351 [INFO] scanner: ========================================================================
+2026-03-14 23:11:00,352 [INFO] bot:   ⛔ SKIP BTC: max 3 open trades reached
+2026-03-14 23:11:00,352 [INFO] bot:   ⛔ SKIP BNB: max 3 open trades reached
+2026-03-14 23:11:00,352 [INFO] bot:   ⛔ SKIP ADA: max 3 open trades reached
+2026-03-14 23:11:00,352 [INFO] bot: Scan #103 done. 8 signals, 6 actionable.
+2026-03-14 23:11:00,352 [INFO] bot: Next scan in 60s …
+2026-03-14 23:12:00,520 [INFO] data.pipeline: Fetching 10 bars of DOGE/USDT:USDT 5m …
+2026-03-14 23:12:01,339 [INFO] data.pipeline: Fetching 10 bars of XRP/USDT:USDT 5m …
+2026-03-14 23:12:01,645 [INFO] data.pipeline: Fetching 10 bars of AVAX/USDT:USDT 5m …
+2026-03-14 23:12:01,863 [INFO] bot:   ✅ RESOLVED SELL AVAX: WIN @ 9.56 → 9.56  PnL=$+0.19  [TIME_TAKE]
+2026-03-14 23:12:01,863 [INFO] bot:   📊 OPEN SELL XRP: entry=1.39 now=1.39 uPnL=$-0.11 net=$-0.73 (10m)
+2026-03-14 23:12:01,864 [INFO] bot:   📊 OPEN SELL DOGE: entry=0.09 now=0.09 uPnL=$-0.49 net=$-1.12 (10m)
+2026-03-14 23:12:01,864 [INFO] bot: 🔄 Auto-resolved 1 trade(s)
+2026-03-14 23:12:06,153 [INFO] scanner: ========================================================================
+2026-03-14 23:12:06,153 [INFO] scanner:   MARKET SCANNER — 8 symbols scanned
+2026-03-14 23:12:06,154 [INFO] scanner: ========================================================================
+2026-03-14 23:12:06,154 [INFO] scanner:   RANK  SYM     PROB   DIR    GRADE  SCORE  REASON
+2026-03-14 23:12:06,154 [INFO] scanner: ------------------------------------------------------------------------
+2026-03-14 23:12:06,154 [INFO] scanner:   #1    🔴AVAX  0.21  SHORT  A      163.7  Prob=0.21 | trend-aligned + conf=57% + VWAP✓ + Hur
+2026-03-14 23:12:06,154 [INFO] scanner:   #2    🔴BTC   0.19  SHORT  A      156.1  Prob=0.19 | trend-aligned + conf=62% + Hurst=0.59↑
+2026-03-14 23:12:06,155 [INFO] scanner:   #3    🔴BNB   0.29  SHORT  A      155.7  Prob=0.29 | trend-aligned + conf=41% + VWAP✓ + Hur
+2026-03-14 23:12:06,155 [INFO] scanner:   #4    🔴DOGE  0.37  SHORT  A      147.7  Prob=0.37 | trend-aligned + conf=25% + VWAP✓ + Hur
+2026-03-14 23:12:06,155 [INFO] scanner:   #5    🔴XRP   0.29  SHORT  A      146.3  Prob=0.29 | trend-aligned + conf=43% + Hurst=0.61↑
+2026-03-14 23:12:06,155 [INFO] scanner:   #6    🔴ADA   0.30  SHORT  B+     139.5  Prob=0.30 | trend-aligned + conf=39% + VWAP✓ + Hur
+2026-03-14 23:12:06,155 [INFO] scanner:   #7    ⚪ETH   0.27  NONE   SKIP     0.0  Prob=0.27 | counter-trend + conf=46% + Hurst=0.59↑
+2026-03-14 23:12:06,156 [INFO] scanner:   #8    ⚪SOL   0.21  NONE   SKIP     0.0  Prob=0.21 | counter-trend + conf=58% + Hurst=0.63↑
+2026-03-14 23:12:06,156 [INFO] scanner: ------------------------------------------------------------------------
+2026-03-14 23:12:06,156 [INFO] scanner:   Actionable: 6 / 8 signals
+2026-03-14 23:12:06,156 [INFO] scanner: ========================================================================
+2026-03-14 23:12:06,157 [INFO] risk_management.manager:   🎲 Kelly risk: 3.00% (from 21 trades)
+2026-03-14 23:12:06,158 [INFO] bot:   📋 TRADE: SHORT AVAX  size=163.015167  risk=$6.23  SL=9.60  TP=9.48
+2026-03-14 23:12:06,158 [INFO] execution.engine: 📝 PAPER: leverage 20x for AVAX/USDT:USDT (not sent)
+2026-03-14 23:12:06,159 [INFO] execution.engine: 📝 PAPER ORDER: SELL AVAX/USDT:USDT 163.015167  SL=9.5982  TP=9.4835  (logged, not sent)
+2026-03-14 23:12:06,159 [INFO] bot:   ✅ ORDER: SHORT AVAX @ 9.5600
+2026-03-14 23:12:06,159 [INFO] bot:   ⛔ SKIP BTC: max 3 open trades reached
+2026-03-14 23:12:06,159 [INFO] bot:   ⛔ SKIP BNB: max 3 open trades reached
+2026-03-14 23:12:06,160 [INFO] bot:   ⛔ SKIP ADA: max 3 open trades reached
+2026-03-14 23:12:06,160 [INFO] bot: Scan #104 done. 8 signals, 6 actionable.
+2026-03-14 23:12:06,160 [INFO] bot: Next scan in 60s …
+2026-03-14 23:12:16,302 [INFO] data.pipeline: Fetching 300 bars of BTC/USDT:USDT 5m …
+2026-03-14 23:12:16,412 [INFO] data.pipeline: Saved 1087 bars → C:\Users\Mohsh\Documents\crypto_trading_system\data\raw\BTCUSDT_USDT_5m.csv
+2026-03-14 23:12:16,713 [INFO] data.pipeline: Fetching 300 bars of ETH/USDT:USDT 5m …
+2026-03-14 23:12:16,919 [INFO] data.pipeline: Saved 1087 bars → C:\Users\Mohsh\Documents\crypto_trading_system\data\raw\ETHUSDT_USDT_5m.csv
+2026-03-14 23:12:17,220 [INFO] data.pipeline: Fetching 300 bars of SOL/USDT:USDT 5m …
+2026-03-14 23:12:17,430 [INFO] data.pipeline: Saved 1087 bars → C:\Users\Mohsh\Documents\crypto_trading_system\data\raw\SOLUSDT_USDT_5m.csv
+2026-03-14 23:12:17,730 [INFO] data.pipeline: Fetching 300 bars of BNB/USDT:USDT 5m …
+2026-03-14 23:12:18,013 [INFO] data.pipeline: Saved 1087 bars → C:\Users\Mohsh\Documents\crypto_trading_system\data\raw\BNBUSDT_USDT_5m.csv
+2026-03-14 23:12:18,313 [INFO] data.pipeline: Fetching 300 bars of XRP/USDT:USDT 5m …
+2026-03-14 23:12:18,472 [INFO] data.pipeline: Saved 1087 bars → C:\Users\Mohsh\Documents\crypto_trading_system\data\raw\XRPUSDT_USDT_5m.csv
+2026-03-14 23:12:18,773 [INFO] data.pipeline: Fetching 300 bars of DOGE/USDT:USDT 5m …
+2026-03-14 23:12:18,930 [INFO] data.pipeline: Saved 1087 bars → C:\Users\Mohsh\Documents\crypto_trading_system\data\raw\DOGEUSDT_USDT_5m.csv
+2026-03-14 23:12:19,230 [INFO] data.pipeline: Fetching 300 bars of ADA/USDT:USDT 5m …
+2026-03-14 23:12:19,515 [INFO] data.pipeline: Saved 1087 bars → C:\Users\Mohsh\Documents\crypto_trading_system\data\raw\ADAUSDT_USDT_5m.csv
+2026-03-14 23:12:19,815 [INFO] data.pipeline: Fetching 300 bars of AVAX/USDT:USDT 5m …
+2026-03-14 23:12:19,978 [INFO] data.pipeline: Saved 1087 bars → C:\Users\Mohsh\Documents\crypto_trading_system\data\raw\AVAXUSDT_USDT_5m.csv
+2026-03-14 23:12:20,278 [INFO] data.collector: Data collection complete: 8 symbols, 8696 total bars
+2026-03-14 23:13:06,252 [INFO] data.pipeline: Fetching 10 bars of DOGE/USDT:USDT 5m …
+2026-03-14 23:13:06,704 [INFO] data.pipeline: Fetching 10 bars of XRP/USDT:USDT 5m …
+2026-03-14 23:13:07,121 [INFO] data.pipeline: Fetching 10 bars of AVAX/USDT:USDT 5m …
+2026-03-14 23:13:07,329 [INFO] bot:   📊 OPEN SELL XRP: entry=1.39 now=1.39 uPnL=$-0.11 net=$-0.73 (11m)
+2026-03-14 23:13:07,330 [INFO] bot:   📊 OPEN SELL DOGE: entry=0.09 now=0.09 uPnL=$-0.49 net=$-1.12 (11m)
+2026-03-14 23:13:07,330 [INFO] bot:   📊 OPEN SELL AVAX: entry=9.56 now=9.56 uPnL=$+0.49 net=$-0.13 (1m)
+2026-03-14 23:13:11,494 [INFO] scanner: ========================================================================
+2026-03-14 23:13:11,494 [INFO] scanner:   MARKET SCANNER — 8 symbols scanned
+2026-03-14 23:13:11,495 [INFO] scanner: ========================================================================
+2026-03-14 23:13:11,495 [INFO] scanner:   RANK  SYM     PROB   DIR    GRADE  SCORE  REASON
+2026-03-14 23:13:11,495 [INFO] scanner: ------------------------------------------------------------------------
+2026-03-14 23:13:11,495 [INFO] scanner:   #1    🔴AVAX  0.21  SHORT  A      163.9  Prob=0.21 | trend-aligned + conf=58% + VWAP✓ + Hur
+2026-03-14 23:13:11,495 [INFO] scanner:   #2    🔴ADA   0.27  SHORT  A      158.2  Prob=0.27 | trend-aligned + conf=46% + VWAP✓ + Hur
+2026-03-14 23:13:11,496 [INFO] scanner:   #3    🔴DOGE  0.38  SHORT  A      147.0  Prob=0.38 | trend-aligned + conf=24% + VWAP✓ + Hur
+2026-03-14 23:13:11,496 [INFO] scanner:   #4    🔴BNB   0.17  SHORT  B+     143.0  Prob=0.17 | trend-aligned + conf=66% + VWAP✓ → B+
+2026-03-14 23:13:11,496 [INFO] scanner:   #5    🔴XRP   0.34  SHORT  B+     125.8  Prob=0.34 | trend-aligned + conf=32% + VWAP✓ + reg
+2026-03-14 23:13:11,496 [INFO] scanner:   #6    🔴BTC   0.18  SHORT  B      116.7  Prob=0.18 | trend-aligned + conf=63% + regime:rang
+2026-03-14 23:13:11,496 [INFO] scanner:   #7    ⚪ETH   0.27  NONE   SKIP     0.0  Prob=0.27 | counter-trend + conf=45% + Hurst=0.55↑
+2026-03-14 23:13:11,497 [INFO] scanner:   #8    ⚪SOL   0.30  NONE   SKIP     0.0  Prob=0.30 | counter-trend + conf=39% + Hurst=0.60↑
+2026-03-14 23:13:11,497 [INFO] scanner: ------------------------------------------------------------------------
+2026-03-14 23:13:11,497 [INFO] scanner:   Actionable: 6 / 8 signals
+2026-03-14 23:13:11,497 [INFO] scanner: ========================================================================
+2026-03-14 23:13:11,498 [INFO] bot:   ⛔ SKIP ADA: max 3 open trades reached
+2026-03-14 23:13:11,498 [INFO] bot:   ⛔ SKIP BNB: max 3 open trades reached
+2026-03-14 23:13:11,499 [INFO] bot:   ⛔ SKIP BTC: max 3 open trades reached
+2026-03-14 23:13:11,499 [INFO] bot: Scan #105 done. 8 signals, 6 actionable.
+2026-03-14 23:13:11,499 [INFO] bot: Next scan in 60s …
+2026-03-14 23:14:11,594 [INFO] data.pipeline: Fetching 10 bars of DOGE/USDT:USDT 5m …
+2026-03-14 23:14:11,934 [INFO] data.pipeline: Fetching 10 bars of XRP/USDT:USDT 5m …
+2026-03-14 23:14:12,413 [INFO] data.pipeline: Fetching 10 bars of AVAX/USDT:USDT 5m …
+2026-03-14 23:14:12,516 [INFO] bot:   📊 OPEN SELL XRP: entry=1.39 now=1.39 uPnL=$-0.78 net=$-1.41 (12m)
+2026-03-14 23:14:12,517 [INFO] bot:   📊 OPEN SELL DOGE: entry=0.09 now=0.09 uPnL=$-0.82 net=$-1.45 (12m)
+2026-03-14 23:14:12,517 [INFO] bot:   📊 OPEN SELL AVAX: entry=9.56 now=9.56 uPnL=$+0.16 net=$-0.46 (2m)
+2026-03-14 23:14:16,691 [INFO] scanner: ========================================================================
+2026-03-14 23:14:16,691 [INFO] scanner:   MARKET SCANNER — 8 symbols scanned
+2026-03-14 23:14:16,691 [INFO] scanner: ========================================================================
+2026-03-14 23:14:16,691 [INFO] scanner:   RANK  SYM     PROB   DIR    GRADE  SCORE  REASON
+2026-03-14 23:14:16,692 [INFO] scanner: ------------------------------------------------------------------------
+2026-03-14 23:14:16,692 [INFO] scanner:   #1    🔴AVAX  0.21  SHORT  A      163.9  Prob=0.21 | trend-aligned + conf=58% + VWAP✓ + Hur
+2026-03-14 23:14:16,692 [INFO] scanner:   #2    🔴ADA   0.27  SHORT  A      158.2  Prob=0.27 | trend-aligned + conf=46% + VWAP✓ + Hur
+2026-03-14 23:14:16,692 [INFO] scanner:   #3    🔴DOGE  0.38  SHORT  A      147.0  Prob=0.38 | trend-aligned + conf=24% + VWAP✓ + Hur
+2026-03-14 23:14:16,693 [INFO] scanner:   #4    🔴BNB   0.17  SHORT  B+     143.0  Prob=0.17 | trend-aligned + conf=66% + VWAP✓ → B+
+2026-03-14 23:14:16,693 [INFO] scanner:   #5    🔴XRP   0.34  SHORT  B+     125.8  Prob=0.34 | trend-aligned + conf=32% + VWAP✓ + reg
+2026-03-14 23:14:16,693 [INFO] scanner:   #6    🔴BTC   0.18  SHORT  B      116.7  Prob=0.18 | trend-aligned + conf=63% + regime:rang
+2026-03-14 23:14:16,693 [INFO] scanner:   #7    ⚪ETH   0.27  NONE   SKIP     0.0  Prob=0.27 | counter-trend + conf=45% + Hurst=0.55↑
+2026-03-14 23:14:16,693 [INFO] scanner:   #8    ⚪SOL   0.30  NONE   SKIP     0.0  Prob=0.30 | counter-trend + conf=39% + Hurst=0.60↑
+2026-03-14 23:14:16,694 [INFO] scanner: ------------------------------------------------------------------------
+2026-03-14 23:14:16,694 [INFO] scanner:   Actionable: 6 / 8 signals
+2026-03-14 23:14:16,694 [INFO] scanner: ========================================================================
+2026-03-14 23:14:16,695 [INFO] bot:   ⛔ SKIP ADA: max 3 open trades reached
+2026-03-14 23:14:16,696 [INFO] bot:   ⛔ SKIP BNB: max 3 open trades reached
+2026-03-14 23:14:16,696 [INFO] bot:   ⛔ SKIP BTC: max 3 open trades reached
+2026-03-14 23:14:16,697 [INFO] bot: Scan #106 done. 8 signals, 6 actionable.
+2026-03-14 23:14:16,697 [INFO] bot: Next scan in 60s …
+2026-03-14 23:15:16,823 [INFO] data.pipeline: Fetching 10 bars of DOGE/USDT:USDT 5m …
+2026-03-14 23:15:17,259 [INFO] data.pipeline: Fetching 10 bars of XRP/USDT:USDT 5m …
+2026-03-14 23:15:17,811 [INFO] data.pipeline: Fetching 10 bars of AVAX/USDT:USDT 5m …
+2026-03-14 23:15:18,053 [INFO] bot:   📊 OPEN SELL XRP: entry=1.39 now=1.39 uPnL=$-0.78 net=$-1.41 (13m)
+2026-03-14 23:15:18,055 [INFO] bot:   📊 OPEN SELL DOGE: entry=0.09 now=0.09 uPnL=$-1.15 net=$-1.78 (13m)
+2026-03-14 23:15:18,055 [INFO] bot:   📊 OPEN SELL AVAX: entry=9.56 now=9.56 uPnL=$+0.33 net=$-0.30 (3m)
+2026-03-14 23:15:22,073 [INFO] scanner: ========================================================================
+2026-03-14 23:15:22,073 [INFO] scanner:   MARKET SCANNER — 8 symbols scanned
+2026-03-14 23:15:22,074 [INFO] scanner: ========================================================================
+2026-03-14 23:15:22,074 [INFO] scanner:   RANK  SYM     PROB   DIR    GRADE  SCORE  REASON
+2026-03-14 23:15:22,074 [INFO] scanner: ------------------------------------------------------------------------
+2026-03-14 23:15:22,074 [INFO] scanner:   #1    🔴AVAX  0.21  SHORT  A      163.9  Prob=0.21 | trend-aligned + conf=58% + VWAP✓ + Hur
+2026-03-14 23:15:22,074 [INFO] scanner:   #2    🔴ADA   0.27  SHORT  A      158.2  Prob=0.27 | trend-aligned + conf=46% + VWAP✓ + Hur
+2026-03-14 23:15:22,075 [INFO] scanner:   #3    🔴DOGE  0.38  SHORT  A      147.0  Prob=0.38 | trend-aligned + conf=24% + VWAP✓ + Hur
+2026-03-14 23:15:22,075 [INFO] scanner:   #4    🔴BNB   0.17  SHORT  B+     143.0  Prob=0.17 | trend-aligned + conf=66% + VWAP✓ → B+
+2026-03-14 23:15:22,075 [INFO] scanner:   #5    🔴XRP   0.34  SHORT  B+     125.8  Prob=0.34 | trend-aligned + conf=32% + VWAP✓ + reg
+2026-03-14 23:15:22,075 [INFO] scanner:   #6    🔴BTC   0.18  SHORT  B      116.7  Prob=0.18 | trend-aligned + conf=63% + regime:rang
+2026-03-14 23:15:22,075 [INFO] scanner:   #7    ⚪ETH   0.27  NONE   SKIP     0.0  Prob=0.27 | counter-trend + conf=45% + Hurst=0.55↑
+2026-03-14 23:15:22,076 [INFO] scanner:   #8    ⚪SOL   0.30  NONE   SKIP     0.0  Prob=0.30 | counter-trend + conf=39% + Hurst=0.60↑
+2026-03-14 23:15:22,076 [INFO] scanner: ------------------------------------------------------------------------
+2026-03-14 23:15:22,076 [INFO] scanner:   Actionable: 6 / 8 signals
+2026-03-14 23:15:22,076 [INFO] scanner: ========================================================================
+2026-03-14 23:15:22,077 [INFO] bot:   ⛔ SKIP ADA: max 3 open trades reached
+2026-03-14 23:15:22,077 [INFO] bot:   ⛔ SKIP BNB: max 3 open trades reached
+2026-03-14 23:15:22,078 [INFO] bot:   ⛔ SKIP BTC: max 3 open trades reached
+2026-03-14 23:15:22,078 [INFO] bot: Scan #107 done. 8 signals, 6 actionable.
+2026-03-14 23:15:22,078 [INFO] bot: Next scan in 60s …
+2026-03-14 23:16:22,299 [INFO] data.pipeline: Fetching 10 bars of DOGE/USDT:USDT 5m …
+2026-03-14 23:16:22,604 [INFO] data.pipeline: Fetching 10 bars of XRP/USDT:USDT 5m …
+2026-03-14 23:16:22,919 [INFO] data.pipeline: Fetching 10 bars of AVAX/USDT:USDT 5m …
+2026-03-14 23:16:23,132 [INFO] bot:   📊 OPEN SELL XRP: entry=1.39 now=1.39 uPnL=$-0.67 net=$-1.30 (14m)
+2026-03-14 23:16:23,132 [INFO] bot:   📊 OPEN SELL DOGE: entry=0.09 now=0.09 uPnL=$-1.48 net=$-2.11 (14m)
+2026-03-14 23:16:23,133 [INFO] bot:   📊 OPEN SELL AVAX: entry=9.56 now=9.56 uPnL=$+0.49 net=$-0.13 (4m)
+2026-03-14 23:16:25,072 [INFO] scanner: ========================================================================
+2026-03-14 23:16:25,073 [INFO] scanner:   MARKET SCANNER — 8 symbols scanned
+2026-03-14 23:16:25,073 [INFO] scanner: ========================================================================
+2026-03-14 23:16:25,073 [INFO] scanner:   RANK  SYM     PROB   DIR    GRADE  SCORE  REASON
+2026-03-14 23:16:25,073 [INFO] scanner: ------------------------------------------------------------------------
+2026-03-14 23:16:25,073 [INFO] scanner:   #1    🔴AVAX  0.21  SHORT  A      163.9  Prob=0.21 | trend-aligned + conf=58% + VWAP✓ + Hur
+2026-03-14 23:16:25,073 [INFO] scanner:   #2    🔴ADA   0.27  SHORT  A      158.2  Prob=0.27 | trend-aligned + conf=46% + VWAP✓ + Hur
+2026-03-14 23:16:25,074 [INFO] scanner:   #3    🔴DOGE  0.38  SHORT  A      147.0  Prob=0.38 | trend-aligned + conf=24% + VWAP✓ + Hur
+2026-03-14 23:16:25,074 [INFO] scanner:   #4    🔴BNB   0.17  SHORT  B+     143.0  Prob=0.17 | trend-aligned + conf=66% + VWAP✓ → B+
+2026-03-14 23:16:25,074 [INFO] scanner:   #5    🔴XRP   0.34  SHORT  B+     125.8  Prob=0.34 | trend-aligned + conf=32% + VWAP✓ + reg
+2026-03-14 23:16:25,074 [INFO] scanner:   #6    🔴BTC   0.18  SHORT  B      116.7  Prob=0.18 | trend-aligned + conf=63% + regime:rang
+2026-03-14 23:16:25,074 [INFO] scanner:   #7    ⚪ETH   0.27  NONE   SKIP     0.0  Prob=0.27 | counter-trend + conf=45% + Hurst=0.55↑
+2026-03-14 23:16:25,074 [INFO] scanner:   #8    ⚪SOL   0.30  NONE   SKIP     0.0  Prob=0.30 | counter-trend + conf=39% + Hurst=0.60↑
+2026-03-14 23:16:25,074 [INFO] scanner: ------------------------------------------------------------------------
+2026-03-14 23:16:25,075 [INFO] scanner:   Actionable: 6 / 8 signals
+2026-03-14 23:16:25,075 [INFO] scanner: ========================================================================
+2026-03-14 23:16:25,076 [INFO] bot:   ⛔ SKIP ADA: max 3 open trades reached
+2026-03-14 23:16:25,076 [INFO] bot:   ⛔ SKIP BNB: max 3 open trades reached
+2026-03-14 23:16:25,076 [INFO] bot:   ⛔ SKIP BTC: max 3 open trades reached
+2026-03-14 23:16:25,076 [INFO] bot: Scan #108 done. 8 signals, 6 actionable.
+2026-03-14 23:16:25,076 [INFO] bot: Next scan in 60s …
+2026-03-14 23:17:20,279 [INFO] data.pipeline: Fetching 300 bars of BTC/USDT:USDT 5m …
+2026-03-14 23:17:20,464 [INFO] data.pipeline: Saved 1088 bars → C:\Users\Mohsh\Documents\crypto_trading_system\data\raw\BTCUSDT_USDT_5m.csv
+2026-03-14 23:17:20,766 [INFO] data.pipeline: Fetching 300 bars of ETH/USDT:USDT 5m …
+2026-03-14 23:17:20,945 [INFO] data.pipeline: Saved 1088 bars → C:\Users\Mohsh\Documents\crypto_trading_system\data\raw\ETHUSDT_USDT_5m.csv
+2026-03-14 23:17:21,246 [INFO] data.pipeline: Fetching 300 bars of SOL/USDT:USDT 5m …
+2026-03-14 23:17:21,569 [INFO] data.pipeline: Saved 1088 bars → C:\Users\Mohsh\Documents\crypto_trading_system\data\raw\SOLUSDT_USDT_5m.csv
+2026-03-14 23:17:21,870 [INFO] data.pipeline: Fetching 300 bars of BNB/USDT:USDT 5m …
+2026-03-14 23:17:22,049 [INFO] data.pipeline: Saved 1088 bars → C:\Users\Mohsh\Documents\crypto_trading_system\data\raw\BNBUSDT_USDT_5m.csv
+2026-03-14 23:17:22,350 [INFO] data.pipeline: Fetching 300 bars of XRP/USDT:USDT 5m …
+2026-03-14 23:17:22,459 [INFO] data.pipeline: Saved 1088 bars → C:\Users\Mohsh\Documents\crypto_trading_system\data\raw\XRPUSDT_USDT_5m.csv
+2026-03-14 23:17:22,760 [INFO] data.pipeline: Fetching 300 bars of DOGE/USDT:USDT 5m …
+2026-03-14 23:17:23,045 [INFO] data.pipeline: Saved 1088 bars → C:\Users\Mohsh\Documents\crypto_trading_system\data\raw\DOGEUSDT_USDT_5m.csv
+2026-03-14 23:17:23,347 [INFO] data.pipeline: Fetching 300 bars of ADA/USDT:USDT 5m …
+2026-03-14 23:17:23,463 [INFO] data.pipeline: Saved 1088 bars → C:\Users\Mohsh\Documents\crypto_trading_system\data\raw\ADAUSDT_USDT_5m.csv
+2026-03-14 23:17:23,766 [INFO] data.pipeline: Fetching 300 bars of AVAX/USDT:USDT 5m …
+2026-03-14 23:17:23,868 [INFO] data.pipeline: Saved 1088 bars → C:\Users\Mohsh\Documents\crypto_trading_system\data\raw\AVAXUSDT_USDT_5m.csv
+2026-03-14 23:17:24,169 [INFO] data.collector: Data collection complete: 8 symbols, 8704 total bars
+2026-03-14 23:17:25,164 [INFO] data.pipeline: Fetching 10 bars of DOGE/USDT:USDT 5m …
+2026-03-14 23:17:25,487 [INFO] data.pipeline: Fetching 10 bars of XRP/USDT:USDT 5m …
+2026-03-14 23:17:25,816 [INFO] data.pipeline: Fetching 10 bars of AVAX/USDT:USDT 5m …
+2026-03-14 23:17:25,937 [INFO] bot:   📊 OPEN SELL XRP: entry=1.39 now=1.39 uPnL=$-1.23 net=$-1.86 (15m)
+2026-03-14 23:17:25,939 [INFO] bot:   ❌ RESOLVED SELL DOGE: LOSS @ 0.09 → 0.09  PnL=$-3.26  [EARLY_STOP]
+2026-03-14 23:17:25,940 [INFO] bot:   📊 OPEN SELL AVAX: entry=9.56 now=9.57 uPnL=$-0.98 net=$-1.60 (5m)
+2026-03-14 23:17:25,940 [INFO] bot: 🔄 Auto-resolved 1 trade(s)
+2026-03-14 23:17:30,036 [INFO] scanner: ========================================================================
+2026-03-14 23:17:30,037 [INFO] scanner:   MARKET SCANNER — 8 symbols scanned
+2026-03-14 23:17:30,037 [INFO] scanner: ========================================================================
+2026-03-14 23:17:30,037 [INFO] scanner:   RANK  SYM     PROB   DIR    GRADE  SCORE  REASON
+2026-03-14 23:17:30,037 [INFO] scanner: ------------------------------------------------------------------------
+2026-03-14 23:17:30,037 [INFO] scanner:   #1    🔴ADA   0.23  SHORT  A      161.8  Prob=0.23 | trend-aligned + conf=54% + VWAP✓ + Hur
+2026-03-14 23:17:30,038 [INFO] scanner:   #2    🔴AVAX  0.14  SHORT  A      161.0  Prob=0.14 | trend-aligned + conf=72% + Hurst=0.70↑
+2026-03-14 23:17:30,038 [INFO] scanner:   #3    🔴DOGE  0.30  SHORT  A      155.4  Prob=0.30 | trend-aligned + conf=41% + VWAP✓ + Hur
+2026-03-14 23:17:30,038 [INFO] scanner:   #4    🔴BNB   0.09  SHORT  B      125.6  Prob=0.09 | trend-aligned + conf=81% → B
+2026-03-14 23:17:30,038 [INFO] scanner:   #5    🔴BTC   0.18  SHORT  B      116.7  Prob=0.18 | trend-aligned + conf=63% + regime:rang
+2026-03-14 23:17:30,038 [INFO] scanner:   #6    🔴XRP   0.18  SHORT  B      116.5  Prob=0.18 | trend-aligned + conf=63% + regime:rang
+2026-03-14 23:17:30,039 [INFO] scanner:   #7    🔴ETH   0.20  SHORT  B+     100.2  Prob=0.20 | counter-trend + conf=60% + BB-overboug
+2026-03-14 23:17:30,039 [INFO] scanner:   #8    ⚪SOL   0.23  NONE   SKIP     0.0  Prob=0.23 | counter-trend + conf=53% + Hurst=0.63↑
+2026-03-14 23:17:30,039 [INFO] scanner: ------------------------------------------------------------------------
+2026-03-14 23:17:30,039 [INFO] scanner:   Actionable: 7 / 8 signals
+2026-03-14 23:17:30,039 [INFO] scanner: ========================================================================
+2026-03-14 23:17:30,040 [INFO] risk_management.manager:   🎲 Kelly risk: 3.00% (from 22 trades)
+2026-03-14 23:17:30,041 [INFO] bot:   📋 TRADE: SHORT ADA  size=5927.260433  risk=$6.14  SL=0.26  TP=0.26
+2026-03-14 23:17:30,041 [INFO] execution.engine: 📝 PAPER: leverage 20x for ADA/USDT:USDT (not sent)
+2026-03-14 23:17:30,042 [INFO] execution.engine: 📝 PAPER ORDER: SELL ADA/USDT:USDT 5927.260433  SL=0.259835  TP=0.25673  (logged, not sent)
+2026-03-14 23:17:30,042 [INFO] bot:   ✅ ORDER: SHORT ADA @ 0.2588
+2026-03-14 23:17:30,042 [INFO] bot:   ⛔ SKIP DOGE: max 3 open trades reached
+2026-03-14 23:17:30,042 [INFO] bot:   ⛔ SKIP BNB: max 3 open trades reached
+2026-03-14 23:17:30,043 [INFO] bot:   ⛔ SKIP BTC: max 3 open trades reached
+2026-03-14 23:17:30,043 [INFO] bot:   ⛔ SKIP ETH: max 3 open trades reached
+2026-03-14 23:17:30,043 [INFO] bot: Scan #109 done. 8 signals, 7 actionable.
+2026-03-14 23:17:30,043 [INFO] bot: Next scan in 60s …
+2026-03-14 23:18:30,162 [INFO] data.pipeline: Fetching 10 bars of XRP/USDT:USDT 5m …
+2026-03-14 23:18:30,566 [INFO] data.pipeline: Fetching 10 bars of AVAX/USDT:USDT 5m …
+2026-03-14 23:18:31,210 [INFO] data.pipeline: Fetching 10 bars of ADA/USDT:USDT 5m …
+2026-03-14 23:18:31,489 [INFO] bot:   📊 OPEN SELL XRP: entry=1.39 now=1.39 uPnL=$-0.78 net=$-1.41 (16m)
+2026-03-14 23:18:31,490 [INFO] bot:   📊 OPEN SELL AVAX: entry=9.56 now=9.57 uPnL=$-0.98 net=$-1.60 (6m)
+2026-03-14 23:18:31,490 [INFO] bot:   📊 OPEN SELL ADA: entry=0.26 now=0.26 uPnL=$+0.00 net=$-0.61 (1m)
+2026-03-14 23:18:35,698 [INFO] scanner: ========================================================================
+2026-03-14 23:18:35,698 [INFO] scanner:   MARKET SCANNER — 8 symbols scanned
+2026-03-14 23:18:35,698 [INFO] scanner: ========================================================================
+2026-03-14 23:18:35,699 [INFO] scanner:   RANK  SYM     PROB   DIR    GRADE  SCORE  REASON
+2026-03-14 23:18:35,699 [INFO] scanner: ------------------------------------------------------------------------
+2026-03-14 23:18:35,699 [INFO] scanner:   #1    🔴ADA   0.23  SHORT  A      161.8  Prob=0.23 | trend-aligned + conf=54% + VWAP✓ + Hur
+2026-03-14 23:18:35,699 [INFO] scanner:   #2    🔴AVAX  0.14  SHORT  A      161.0  Prob=0.14 | trend-aligned + conf=72% + Hurst=0.70↑
+2026-03-14 23:18:35,699 [INFO] scanner:   #3    🔴DOGE  0.30  SHORT  A      155.4  Prob=0.30 | trend-aligned + conf=41% + VWAP✓ + Hur
+2026-03-14 23:18:35,700 [INFO] scanner:   #4    🔴BNB   0.09  SHORT  B      125.6  Prob=0.09 | trend-aligned + conf=81% → B
+2026-03-14 23:18:35,700 [INFO] scanner:   #5    🔴BTC   0.18  SHORT  B      116.7  Prob=0.18 | trend-aligned + conf=63% + regime:rang
+2026-03-14 23:18:35,700 [INFO] scanner:   #6    🔴XRP   0.18  SHORT  B      116.5  Prob=0.18 | trend-aligned + conf=63% + regime:rang
+2026-03-14 23:18:35,700 [INFO] scanner:   #7    🔴ETH   0.20  SHORT  B+     100.2  Prob=0.20 | counter-trend + conf=60% + BB-overboug
+2026-03-14 23:18:35,700 [INFO] scanner:   #8    ⚪SOL   0.23  NONE   SKIP     0.0  Prob=0.23 | counter-trend + conf=53% + Hurst=0.63↑
+2026-03-14 23:18:35,700 [INFO] scanner: ------------------------------------------------------------------------
+2026-03-14 23:18:35,701 [INFO] scanner:   Actionable: 7 / 8 signals
+2026-03-14 23:18:35,701 [INFO] scanner: ========================================================================
+2026-03-14 23:18:35,702 [INFO] bot:   ⛔ SKIP DOGE: max 3 open trades reached
+2026-03-14 23:18:35,702 [INFO] bot:   ⛔ SKIP BNB: max 3 open trades reached
+2026-03-14 23:18:35,702 [INFO] bot:   ⛔ SKIP BTC: max 3 open trades reached
+2026-03-14 23:18:35,702 [INFO] bot:   ⛔ SKIP ETH: max 3 open trades reached
+2026-03-14 23:18:35,703 [INFO] bot: Scan #110 done. 8 signals, 7 actionable.
+2026-03-14 23:18:35,703 [INFO] bot: Next scan in 60s …
+2026-03-14 23:19:35,898 [INFO] data.pipeline: Fetching 10 bars of XRP/USDT:USDT 5m …
+2026-03-14 23:19:36,294 [INFO] data.pipeline: Fetching 10 bars of AVAX/USDT:USDT 5m …
+2026-03-14 23:19:36,819 [INFO] data.pipeline: Fetching 10 bars of ADA/USDT:USDT 5m …
+2026-03-14 23:19:36,924 [INFO] bot:   📊 OPEN SELL XRP: entry=1.39 now=1.39 uPnL=$-0.67 net=$-1.30 (17m)
+2026-03-14 23:19:36,925 [INFO] bot:   📊 OPEN SELL AVAX: entry=9.56 now=9.56 uPnL=$+0.16 net=$-0.46 (8m)
+2026-03-14 23:19:36,925 [INFO] bot:   📊 OPEN SELL ADA: entry=0.26 now=0.26 uPnL=$+0.59 net=$-0.02 (2m)
+2026-03-14 23:19:41,096 [INFO] scanner: ========================================================================
+2026-03-14 23:19:41,096 [INFO] scanner:   MARKET SCANNER — 8 symbols scanned
+2026-03-14 23:19:41,096 [INFO] scanner: ========================================================================
+2026-03-14 23:19:41,096 [INFO] scanner:   RANK  SYM     PROB   DIR    GRADE  SCORE  REASON
+2026-03-14 23:19:41,097 [INFO] scanner: ------------------------------------------------------------------------
+2026-03-14 23:19:41,097 [INFO] scanner:   #1    🔴ADA   0.23  SHORT  A      161.8  Prob=0.23 | trend-aligned + conf=54% + VWAP✓ + Hur
+2026-03-14 23:19:41,097 [INFO] scanner:   #2    🔴AVAX  0.14  SHORT  A      161.0  Prob=0.14 | trend-aligned + conf=72% + Hurst=0.70↑
+2026-03-14 23:19:41,097 [INFO] scanner:   #3    🔴DOGE  0.30  SHORT  A      155.4  Prob=0.30 | trend-aligned + conf=41% + VWAP✓ + Hur
+2026-03-14 23:19:41,098 [INFO] scanner:   #4    🔴BNB   0.09  SHORT  B      125.6  Prob=0.09 | trend-aligned + conf=81% → B
+2026-03-14 23:19:41,098 [INFO] scanner:   #5    🔴BTC   0.18  SHORT  B      116.7  Prob=0.18 | trend-aligned + conf=63% + regime:rang
+2026-03-14 23:19:41,098 [INFO] scanner:   #6    🔴XRP   0.18  SHORT  B      116.5  Prob=0.18 | trend-aligned + conf=63% + regime:rang
+2026-03-14 23:19:41,098 [INFO] scanner:   #7    🔴ETH   0.20  SHORT  B+     100.2  Prob=0.20 | counter-trend + conf=60% + BB-overboug
+2026-03-14 23:19:41,098 [INFO] scanner:   #8    ⚪SOL   0.23  NONE   SKIP     0.0  Prob=0.23 | counter-trend + conf=53% + Hurst=0.63↑
+2026-03-14 23:19:41,099 [INFO] scanner: ------------------------------------------------------------------------
+2026-03-14 23:19:41,099 [INFO] scanner:   Actionable: 7 / 8 signals
+2026-03-14 23:19:41,099 [INFO] scanner: ========================================================================
+2026-03-14 23:19:41,100 [INFO] bot:   ⛔ SKIP DOGE: max 3 open trades reached
+2026-03-14 23:19:41,100 [INFO] bot:   ⛔ SKIP BNB: max 3 open trades reached
+2026-03-14 23:19:41,100 [INFO] bot:   ⛔ SKIP BTC: max 3 open trades reached
+2026-03-14 23:19:41,100 [INFO] bot:   ⛔ SKIP ETH: max 3 open trades reached
+2026-03-14 23:19:41,101 [INFO] bot: Scan #111 done. 8 signals, 7 actionable.
+2026-03-14 23:19:41,101 [INFO] bot: Next scan in 60s …
+2026-03-14 23:20:35,021 [INFO] retrainer: Next retrain in ~3.3 hours
+2026-03-14 23:20:41,340 [INFO] data.pipeline: Fetching 10 bars of XRP/USDT:USDT 5m …
+2026-03-14 23:20:41,749 [INFO] data.pipeline: Fetching 10 bars of AVAX/USDT:USDT 5m …
+2026-03-14 23:20:42,177 [INFO] data.pipeline: Fetching 10 bars of ADA/USDT:USDT 5m …
+2026-03-14 23:20:42,570 [INFO] bot:   📊 OPEN SELL XRP: entry=1.39 now=1.39 uPnL=$+0.00 net=$-0.62 (18m)
+2026-03-14 23:20:42,572 [INFO] bot:   📊 OPEN SELL AVAX: entry=9.56 now=9.55 uPnL=$+1.14 net=$+0.52 (9m)
+2026-03-14 23:20:42,573 [INFO] bot:   ✅ RESOLVED SELL ADA: WIN @ 0.26 → 0.26  PnL=$+1.16  [PROFIT_TAKE]
+2026-03-14 23:20:42,574 [INFO] bot: 🔄 Auto-resolved 1 trade(s)
+2026-03-14 23:20:44,436 [INFO] scanner: ========================================================================
+2026-03-14 23:20:44,437 [INFO] scanner:   MARKET SCANNER — 8 symbols scanned
+2026-03-14 23:20:44,437 [INFO] scanner: ========================================================================
+2026-03-14 23:20:44,437 [INFO] scanner:   RANK  SYM     PROB   DIR    GRADE  SCORE  REASON
+2026-03-14 23:20:44,437 [INFO] scanner: ------------------------------------------------------------------------
+2026-03-14 23:20:44,437 [INFO] scanner:   #1    🔴ADA   0.23  SHORT  A      161.8  Prob=0.23 | trend-aligned + conf=54% + VWAP✓ + Hur
+2026-03-14 23:20:44,438 [INFO] scanner:   #2    🔴AVAX  0.14  SHORT  A      161.0  Prob=0.14 | trend-aligned + conf=72% + Hurst=0.70↑
+2026-03-14 23:20:44,438 [INFO] scanner:   #3    🔴DOGE  0.30  SHORT  A      155.4  Prob=0.30 | trend-aligned + conf=41% + VWAP✓ + Hur
+2026-03-14 23:20:44,438 [INFO] scanner:   #4    🔴BNB   0.09  SHORT  B      125.6  Prob=0.09 | trend-aligned + conf=81% → B
+2026-03-14 23:20:44,438 [INFO] scanner:   #5    🔴BTC   0.18  SHORT  B      116.7  Prob=0.18 | trend-aligned + conf=63% + regime:rang
+2026-03-14 23:20:44,438 [INFO] scanner:   #6    🔴XRP   0.18  SHORT  B      116.5  Prob=0.18 | trend-aligned + conf=63% + regime:rang
+2026-03-14 23:20:44,438 [INFO] scanner:   #7    🔴ETH   0.20  SHORT  B+     100.2  Prob=0.20 | counter-trend + conf=60% + BB-overboug
+2026-03-14 23:20:44,438 [INFO] scanner:   #8    ⚪SOL   0.23  NONE   SKIP     0.0  Prob=0.23 | counter-trend + conf=53% + Hurst=0.63↑
+2026-03-14 23:20:44,439 [INFO] scanner: ------------------------------------------------------------------------
+2026-03-14 23:20:44,439 [INFO] scanner:   Actionable: 7 / 8 signals
+2026-03-14 23:20:44,439 [INFO] scanner: ========================================================================
+2026-03-14 23:20:44,440 [INFO] risk_management.manager:   🎲 Kelly risk: 3.00% (from 23 trades)
+2026-03-14 23:20:44,440 [INFO] bot:   📋 TRADE: SHORT ADA  size=5960.877125  risk=$6.17  SL=0.26  TP=0.26
+2026-03-14 23:20:44,440 [INFO] execution.engine: 📝 PAPER: leverage 20x for ADA/USDT:USDT (not sent)
+2026-03-14 23:20:44,441 [INFO] execution.engine: 📝 PAPER ORDER: SELL ADA/USDT:USDT 5960.877125  SL=0.259835  TP=0.25673  (logged, not sent)
+2026-03-14 23:20:44,441 [INFO] bot:   ✅ ORDER: SHORT ADA @ 0.2588
+2026-03-14 23:20:44,441 [INFO] bot:   ⛔ SKIP DOGE: max 3 open trades reached
+2026-03-14 23:20:44,442 [INFO] bot:   ⛔ SKIP BNB: max 3 open trades reached
+2026-03-14 23:20:44,442 [INFO] bot:   ⛔ SKIP BTC: max 3 open trades reached
+2026-03-14 23:20:44,442 [INFO] bot:   ⛔ SKIP ETH: max 3 open trades reached
+2026-03-14 23:20:44,442 [INFO] bot: Scan #112 done. 8 signals, 7 actionable.
+2026-03-14 23:20:44,443 [INFO] bot: Next scan in 60s …
+2026-03-14 23:21:36,802 [INFO] data.pipeline: Fetching 20 bars of BTC/USDT:USDT 4h …
+2026-03-14 23:21:36,893 [INFO] swing:   📊 SWING OPEN SELL BTC: entry=70614.7000 now=70630.7000 uPnL=$-0.06 (2.6h)
+2026-03-14 23:21:36,893 [INFO] data.pipeline: Fetching 20 bars of ETH/USDT:USDT 4h …
+2026-03-14 23:21:37,107 [INFO] swing:   📊 SWING OPEN SELL ETH: entry=2074.7000 now=2076.1000 uPnL=$-0.12 (2.6h)
+2026-03-14 23:21:37,108 [INFO] data.pipeline: Fetching 500 bars of SOL/USDT:USDT 4h …
+2026-03-14 23:21:38,121 [INFO] swing:   ⛔ SWING SKIP SOL: max 2 SHORT
+2026-03-14 23:21:38,122 [INFO] data.pipeline: Fetching 500 bars of BNB/USDT:USDT 4h …
+2026-03-14 23:21:39,360 [INFO] swing:   ⛔ SWING SKIP BNB: max 2 SHORT
+2026-03-14 23:21:39,360 [INFO] data.pipeline: Fetching 500 bars of XRP/USDT:USDT 4h …
+2026-03-14 23:21:39,824 [INFO] swing:   ⛔ SWING SKIP XRP: max 2 SHORT
+2026-03-14 23:21:39,824 [INFO] data.pipeline: Fetching 500 bars of DOGE/USDT:USDT 4h …
+2026-03-14 23:21:40,515 [INFO] swing:   ⛔ SWING SKIP DOGE: max 2 SHORT
+2026-03-14 23:21:40,515 [INFO] data.pipeline: Fetching 500 bars of ADA/USDT:USDT 4h …
+2026-03-14 23:21:41,024 [INFO] swing:   ⛔ SWING SKIP ADA: max 2 SHORT
+2026-03-14 23:21:41,024 [INFO] data.pipeline: Fetching 500 bars of AVAX/USDT:USDT 4h …
+2026-03-14 23:21:41,640 [INFO] swing:   ⛔ SWING SKIP AVAX: max 2 SHORT
+2026-03-14 23:21:44,718 [INFO] data.pipeline: Fetching 10 bars of XRP/USDT:USDT 5m …
+2026-03-14 23:21:45,129 [INFO] data.pipeline: Fetching 10 bars of AVAX/USDT:USDT 5m …
+2026-03-14 23:21:45,443 [INFO] data.pipeline: Fetching 10 bars of ADA/USDT:USDT 5m …
+2026-03-14 23:21:45,663 [INFO] bot:   📊 OPEN SELL XRP: entry=1.39 now=1.39 uPnL=$-0.45 net=$-1.07 (19m)
+2026-03-14 23:21:45,664 [INFO] bot:   📊 OPEN SELL AVAX: entry=9.56 now=9.56 uPnL=$+0.49 net=$-0.13 (10m)
+2026-03-14 23:21:45,664 [INFO] bot:   📊 OPEN SELL ADA: entry=0.26 now=0.26 uPnL=$+0.60 net=$-0.02 (1m)
+2026-03-14 23:21:50,010 [INFO] scanner: ========================================================================
+2026-03-14 23:21:50,010 [INFO] scanner:   MARKET SCANNER — 8 symbols scanned
+2026-03-14 23:21:50,010 [INFO] scanner: ========================================================================
+2026-03-14 23:21:50,010 [INFO] scanner:   RANK  SYM     PROB   DIR    GRADE  SCORE  REASON
+2026-03-14 23:21:50,011 [INFO] scanner: ------------------------------------------------------------------------
+2026-03-14 23:21:50,011 [INFO] scanner:   #1    🔴ADA   0.23  SHORT  A      161.8  Prob=0.23 | trend-aligned + conf=54% + VWAP✓ + Hur
+2026-03-14 23:21:50,011 [INFO] scanner:   #2    🔴AVAX  0.14  SHORT  A      161.0  Prob=0.14 | trend-aligned + conf=72% + Hurst=0.70↑
+2026-03-14 23:21:50,011 [INFO] scanner:   #3    🔴DOGE  0.30  SHORT  A      155.4  Prob=0.30 | trend-aligned + conf=41% + VWAP✓ + Hur
+2026-03-14 23:21:50,011 [INFO] scanner:   #4    🔴BNB   0.09  SHORT  B      125.6  Prob=0.09 | trend-aligned + conf=81% → B
+2026-03-14 23:21:50,011 [INFO] scanner:   #5    🔴BTC   0.18  SHORT  B      116.7  Prob=0.18 | trend-aligned + conf=63% + regime:rang
+2026-03-14 23:21:50,011 [INFO] scanner:   #6    🔴XRP   0.18  SHORT  B      116.5  Prob=0.18 | trend-aligned + conf=63% + regime:rang
+2026-03-14 23:21:50,011 [INFO] scanner:   #7    🔴ETH   0.20  SHORT  B+     100.2  Prob=0.20 | counter-trend + conf=60% + BB-overboug
+2026-03-14 23:21:50,012 [INFO] scanner:   #8    ⚪SOL   0.23  NONE   SKIP     0.0  Prob=0.23 | counter-trend + conf=53% + Hurst=0.63↑
+2026-03-14 23:21:50,012 [INFO] scanner: ------------------------------------------------------------------------
+2026-03-14 23:21:50,012 [INFO] scanner:   Actionable: 7 / 8 signals
+2026-03-14 23:21:50,012 [INFO] scanner: ========================================================================
+2026-03-14 23:21:50,013 [INFO] bot:   ⛔ SKIP DOGE: max 3 open trades reached
+2026-03-14 23:21:50,013 [INFO] bot:   ⛔ SKIP BNB: max 3 open trades reached
+2026-03-14 23:21:50,013 [INFO] bot:   ⛔ SKIP BTC: max 3 open trades reached
+2026-03-14 23:21:50,013 [INFO] bot:   ⛔ SKIP ETH: max 3 open trades reached
+2026-03-14 23:21:50,013 [INFO] bot: Scan #113 done. 8 signals, 7 actionable.
+2026-03-14 23:21:50,013 [INFO] bot: Next scan in 60s …
+2026-03-14 23:22:24,170 [INFO] data.pipeline: Fetching 300 bars of BTC/USDT:USDT 5m …
+2026-03-14 23:22:24,282 [INFO] data.pipeline: Saved 1089 bars → C:\Users\Mohsh\Documents\crypto_trading_system\data\raw\BTCUSDT_USDT_5m.csv
+2026-03-14 23:22:24,583 [INFO] data.pipeline: Fetching 300 bars of ETH/USDT:USDT 5m …
+2026-03-14 23:22:24,876 [INFO] data.pipeline: Saved 1089 bars → C:\Users\Mohsh\Documents\crypto_trading_system\data\raw\ETHUSDT_USDT_5m.csv
+2026-03-14 23:22:25,177 [INFO] data.pipeline: Fetching 300 bars of SOL/USDT:USDT 5m …
+2026-03-14 23:22:25,455 [INFO] data.pipeline: Saved 1089 bars → C:\Users\Mohsh\Documents\crypto_trading_system\data\raw\SOLUSDT_USDT_5m.csv
+2026-03-14 23:22:25,756 [INFO] data.pipeline: Fetching 300 bars of BNB/USDT:USDT 5m …
+2026-03-14 23:22:26,033 [INFO] data.pipeline: Saved 1089 bars → C:\Users\Mohsh\Documents\crypto_trading_system\data\raw\BNBUSDT_USDT_5m.csv
+2026-03-14 23:22:26,334 [INFO] data.pipeline: Fetching 300 bars of XRP/USDT:USDT 5m …
+2026-03-14 23:22:26,642 [INFO] data.pipeline: Saved 1089 bars → C:\Users\Mohsh\Documents\crypto_trading_system\data\raw\XRPUSDT_USDT_5m.csv
+2026-03-14 23:22:26,942 [INFO] data.pipeline: Fetching 300 bars of DOGE/USDT:USDT 5m …
+2026-03-14 23:22:27,228 [INFO] data.pipeline: Saved 1089 bars → C:\Users\Mohsh\Documents\crypto_trading_system\data\raw\DOGEUSDT_USDT_5m.csv
+2026-03-14 23:22:27,528 [INFO] data.pipeline: Fetching 300 bars of ADA/USDT:USDT 5m …
+2026-03-14 23:22:27,800 [INFO] data.pipeline: Saved 1089 bars → C:\Users\Mohsh\Documents\crypto_trading_system\data\raw\ADAUSDT_USDT_5m.csv
+2026-03-14 23:22:28,101 [INFO] data.pipeline: Fetching 300 bars of AVAX/USDT:USDT 5m …
+2026-03-14 23:22:28,437 [INFO] data.pipeline: Saved 1089 bars → C:\Users\Mohsh\Documents\crypto_trading_system\data\raw\AVAXUSDT_USDT_5m.csv
+2026-03-14 23:22:28,738 [INFO] data.collector: Data collection complete: 8 symbols, 8712 total bars
+2026-03-14 23:22:50,255 [INFO] data.pipeline: Fetching 10 bars of XRP/USDT:USDT 5m …
+2026-03-14 23:22:50,869 [INFO] data.pipeline: Fetching 10 bars of AVAX/USDT:USDT 5m …
+2026-03-14 23:22:51,484 [INFO] data.pipeline: Fetching 10 bars of ADA/USDT:USDT 5m …
+2026-03-14 23:22:51,792 [INFO] bot:   📊 OPEN SELL XRP: entry=1.39 now=1.39 uPnL=$+0.00 net=$-0.62 (20m)
+2026-03-14 23:22:51,794 [INFO] bot:   ✅ RESOLVED SELL AVAX: WIN @ 9.56 → 9.55  PnL=$+0.19  [TIME_TAKE]
+2026-03-14 23:22:51,795 [INFO] bot:   📊 OPEN SELL ADA: entry=0.26 now=0.26 uPnL=$+0.60 net=$-0.02 (2m)
+2026-03-14 23:22:51,795 [INFO] bot: 🔄 Auto-resolved 1 trade(s)
+2026-03-14 23:22:53,766 [INFO] scanner: ========================================================================
+2026-03-14 23:22:53,766 [INFO] scanner:   MARKET SCANNER — 8 symbols scanned
+2026-03-14 23:22:53,766 [INFO] scanner: ========================================================================
+2026-03-14 23:22:53,767 [INFO] scanner:   RANK  SYM     PROB   DIR    GRADE  SCORE  REASON
+2026-03-14 23:22:53,767 [INFO] scanner: ------------------------------------------------------------------------
+2026-03-14 23:22:53,767 [INFO] scanner:   #1    🔴BNB   0.19  SHORT  A      166.5  Prob=0.19 | trend-aligned + conf=63% + VWAP✓ + Hur
+2026-03-14 23:22:53,767 [INFO] scanner:   #2    🔴AVAX  0.20  SHORT  A      165.1  Prob=0.20 | trend-aligned + conf=60% + VWAP✓ + Hur
+2026-03-14 23:22:53,767 [INFO] scanner:   #3    🔴ADA   0.26  SHORT  A      159.3  Prob=0.26 | trend-aligned + conf=49% + VWAP✓ + Hur
+2026-03-14 23:22:53,767 [INFO] scanner:   #4    🔴DOGE  0.28  SHORT  A      156.9  Prob=0.28 | trend-aligned + conf=44% + VWAP✓ + Hur
+2026-03-14 23:22:53,767 [INFO] scanner:   #5    🔴XRP   0.26  SHORT  A      148.6  Prob=0.26 | trend-aligned + conf=47% + Hurst=0.59↑
+2026-03-14 23:22:53,768 [INFO] scanner:   #6    🔴BTC   0.19  SHORT  B      116.3  Prob=0.19 | trend-aligned + conf=63% + regime:rang
+2026-03-14 23:22:53,768 [INFO] scanner:   #7    ⚪ETH   0.22  NONE   SKIP     0.0  Prob=0.22 | counter-trend + conf=56% + regime:rang
+2026-03-14 23:22:53,768 [INFO] scanner:   #8    ⚪SOL   0.15  NONE   SKIP     0.0  Prob=0.15 | counter-trend + conf=69% + Hurst=0.69↑
+2026-03-14 23:22:53,768 [INFO] scanner: ------------------------------------------------------------------------
+2026-03-14 23:22:53,768 [INFO] scanner:   Actionable: 6 / 8 signals
+2026-03-14 23:22:53,768 [INFO] scanner: ========================================================================
+2026-03-14 23:22:53,769 [INFO] risk_management.manager:   🎲 Kelly risk: 3.00% (from 24 trades)
+2026-03-14 23:22:53,769 [INFO] bot:   📋 TRADE: SHORT BNB  size=2.365349  risk=$6.18  SL=655.41  TP=647.58
+2026-03-14 23:22:53,769 [INFO] execution.engine: 📝 PAPER: leverage 20x for BNB/USDT:USDT (not sent)
+2026-03-14 23:22:53,770 [INFO] execution.engine: 📝 PAPER ORDER: SELL BNB/USDT:USDT 2.365349  SL=655.41  TP=647.58  (logged, not sent)
+2026-03-14 23:22:53,770 [INFO] bot:   ✅ ORDER: SHORT BNB @ 652.8000
+2026-03-14 23:22:53,770 [INFO] bot:   ⛔ SKIP AVAX: max 3 open trades reached
+2026-03-14 23:22:53,770 [INFO] bot:   ⛔ SKIP DOGE: max 3 open trades reached
+2026-03-14 23:22:53,770 [INFO] bot:   ⛔ SKIP BTC: max 3 open trades reached
+2026-03-14 23:22:53,771 [INFO] bot: Scan #114 done. 8 signals, 6 actionable.
+2026-03-14 23:22:53,771 [INFO] bot: Next scan in 60s …
+2026-03-14 23:23:53,865 [INFO] data.pipeline: Fetching 10 bars of XRP/USDT:USDT 5m …
+2026-03-14 23:23:54,177 [INFO] data.pipeline: Fetching 10 bars of BNB/USDT:USDT 5m …
+2026-03-14 23:23:54,479 [INFO] data.pipeline: Fetching 10 bars of ADA/USDT:USDT 5m …
+2026-03-14 23:23:54,687 [INFO] bot:   📊 OPEN SELL XRP: entry=1.39 now=1.39 uPnL=$-0.56 net=$-1.18 (21m)
+2026-03-14 23:23:54,687 [INFO] bot:   📊 OPEN SELL ADA: entry=0.26 now=0.26 uPnL=$+0.60 net=$-0.02 (3m)
+2026-03-14 23:23:54,688 [INFO] bot:   📊 OPEN SELL BNB: entry=652.80 now=652.80 uPnL=$+0.00 net=$-0.62 (1m)
+2026-03-14 23:23:58,787 [INFO] scanner: ========================================================================
+2026-03-14 23:23:58,788 [INFO] scanner:   MARKET SCANNER — 8 symbols scanned
+2026-03-14 23:23:58,788 [INFO] scanner: ========================================================================
+2026-03-14 23:23:58,788 [INFO] scanner:   RANK  SYM     PROB   DIR    GRADE  SCORE  REASON
+2026-03-14 23:23:58,788 [INFO] scanner: ------------------------------------------------------------------------
+2026-03-14 23:23:58,789 [INFO] scanner:   #1    🔴BNB   0.19  SHORT  A      166.5  Prob=0.19 | trend-aligned + conf=63% + VWAP✓ + Hur
+2026-03-14 23:23:58,789 [INFO] scanner:   #2    🔴AVAX  0.20  SHORT  A      165.1  Prob=0.20 | trend-aligned + conf=60% + VWAP✓ + Hur
+2026-03-14 23:23:58,789 [INFO] scanner:   #3    🔴ADA   0.26  SHORT  A      159.3  Prob=0.26 | trend-aligned + conf=49% + VWAP✓ + Hur
+2026-03-14 23:23:58,789 [INFO] scanner:   #4    🔴DOGE  0.28  SHORT  A      156.9  Prob=0.28 | trend-aligned + conf=44% + VWAP✓ + Hur
+2026-03-14 23:23:58,789 [INFO] scanner:   #5    🔴XRP   0.26  SHORT  A      148.6  Prob=0.26 | trend-aligned + conf=47% + Hurst=0.59↑
+2026-03-14 23:23:58,790 [INFO] scanner:   #6    🔴BTC   0.19  SHORT  B      116.3  Prob=0.19 | trend-aligned + conf=63% + regime:rang
+2026-03-14 23:23:58,790 [INFO] scanner:   #7    ⚪ETH   0.22  NONE   SKIP     0.0  Prob=0.22 | counter-trend + conf=56% + regime:rang
+2026-03-14 23:23:58,790 [INFO] scanner:   #8    ⚪SOL   0.15  NONE   SKIP     0.0  Prob=0.15 | counter-trend + conf=69% + Hurst=0.69↑
+2026-03-14 23:23:58,790 [INFO] scanner: ------------------------------------------------------------------------
+2026-03-14 23:23:58,790 [INFO] scanner:   Actionable: 6 / 8 signals
+2026-03-14 23:23:58,790 [INFO] scanner: ========================================================================
+2026-03-14 23:23:58,791 [INFO] bot:   ⛔ SKIP AVAX: max 3 open trades reached
+2026-03-14 23:23:58,792 [INFO] bot:   ⛔ SKIP DOGE: max 3 open trades reached
+2026-03-14 23:23:58,792 [INFO] bot:   ⛔ SKIP BTC: max 3 open trades reached
+2026-03-14 23:23:58,792 [INFO] bot: Scan #115 done. 8 signals, 6 actionable.
+2026-03-14 23:23:58,793 [INFO] bot: Next scan in 60s …
+2026-03-14 23:24:58,936 [INFO] data.pipeline: Fetching 10 bars of XRP/USDT:USDT 5m …
+2026-03-14 23:24:59,297 [INFO] data.pipeline: Fetching 10 bars of BNB/USDT:USDT 5m …
+2026-03-14 23:24:59,792 [INFO] data.pipeline: Fetching 10 bars of ADA/USDT:USDT 5m …
+2026-03-14 23:24:59,998 [INFO] bot:   📊 OPEN SELL XRP: entry=1.39 now=1.39 uPnL=$-0.45 net=$-1.07 (23m)
+2026-03-14 23:24:59,999 [INFO] bot:   📊 OPEN SELL ADA: entry=0.26 now=0.26 uPnL=$-0.60 net=$-1.21 (4m)
+2026-03-14 23:24:59,999 [INFO] bot:   📊 OPEN SELL BNB: entry=652.80 now=652.90 uPnL=$-0.24 net=$-0.85 (2m)
+2026-03-14 23:25:02,034 [INFO] scanner: ========================================================================
+2026-03-14 23:25:02,034 [INFO] scanner:   MARKET SCANNER — 8 symbols scanned
+2026-03-14 23:25:02,034 [INFO] scanner: ========================================================================
+2026-03-14 23:25:02,035 [INFO] scanner:   RANK  SYM     PROB   DIR    GRADE  SCORE  REASON
+2026-03-14 23:25:02,035 [INFO] scanner: ------------------------------------------------------------------------
+2026-03-14 23:25:02,035 [INFO] scanner:   #1    🔴BNB   0.19  SHORT  A      166.5  Prob=0.19 | trend-aligned + conf=63% + VWAP✓ + Hur
+2026-03-14 23:25:02,035 [INFO] scanner:   #2    🔴AVAX  0.20  SHORT  A      165.1  Prob=0.20 | trend-aligned + conf=60% + VWAP✓ + Hur
+2026-03-14 23:25:02,035 [INFO] scanner:   #3    🔴ADA   0.26  SHORT  A      159.3  Prob=0.26 | trend-aligned + conf=49% + VWAP✓ + Hur
+2026-03-14 23:25:02,035 [INFO] scanner:   #4    🔴DOGE  0.28  SHORT  A      156.9  Prob=0.28 | trend-aligned + conf=44% + VWAP✓ + Hur
+2026-03-14 23:25:02,035 [INFO] scanner:   #5    🔴XRP   0.26  SHORT  A      148.6  Prob=0.26 | trend-aligned + conf=47% + Hurst=0.59↑
+2026-03-14 23:25:02,036 [INFO] scanner:   #6    🔴BTC   0.19  SHORT  B      116.3  Prob=0.19 | trend-aligned + conf=63% + regime:rang
+2026-03-14 23:25:02,036 [INFO] scanner:   #7    ⚪ETH   0.22  NONE   SKIP     0.0  Prob=0.22 | counter-trend + conf=56% + regime:rang
+2026-03-14 23:25:02,036 [INFO] scanner:   #8    ⚪SOL   0.15  NONE   SKIP     0.0  Prob=0.15 | counter-trend + conf=69% + Hurst=0.69↑
+2026-03-14 23:25:02,036 [INFO] scanner: ------------------------------------------------------------------------
+2026-03-14 23:25:02,036 [INFO] scanner:   Actionable: 6 / 8 signals
+2026-03-14 23:25:02,036 [INFO] scanner: ========================================================================
+2026-03-14 23:25:02,037 [INFO] bot:   ⛔ SKIP AVAX: max 3 open trades reached
+2026-03-14 23:25:02,037 [INFO] bot:   ⛔ SKIP DOGE: max 3 open trades reached
+2026-03-14 23:25:02,037 [INFO] bot:   ⛔ SKIP BTC: max 3 open trades reached
+2026-03-14 23:25:02,038 [INFO] bot: Scan #116 done. 8 signals, 6 actionable.
+2026-03-14 23:25:02,038 [INFO] bot: Next scan in 60s …
+2026-03-14 23:26:02,128 [INFO] data.pipeline: Fetching 10 bars of XRP/USDT:USDT 5m …
+2026-03-14 23:26:02,460 [INFO] data.pipeline: Fetching 10 bars of BNB/USDT:USDT 5m …
+2026-03-14 23:26:02,877 [INFO] data.pipeline: Fetching 10 bars of ADA/USDT:USDT 5m …
+2026-03-14 23:26:02,966 [INFO] bot:   📊 OPEN SELL XRP: entry=1.39 now=1.39 uPnL=$+0.00 net=$-0.62 (24m)
+2026-03-14 23:26:02,967 [INFO] bot:   📊 OPEN SELL ADA: entry=0.26 now=0.26 uPnL=$+0.00 net=$-0.62 (5m)
+2026-03-14 23:26:02,967 [INFO] bot:   📊 OPEN SELL BNB: entry=652.80 now=652.80 uPnL=$+0.00 net=$-0.62 (3m)
+2026-03-14 23:26:04,919 [INFO] scanner: ========================================================================
+2026-03-14 23:26:04,919 [INFO] scanner:   MARKET SCANNER — 8 symbols scanned
+2026-03-14 23:26:04,919 [INFO] scanner: ========================================================================
+2026-03-14 23:26:04,919 [INFO] scanner:   RANK  SYM     PROB   DIR    GRADE  SCORE  REASON
+2026-03-14 23:26:04,919 [INFO] scanner: ------------------------------------------------------------------------
+2026-03-14 23:26:04,919 [INFO] scanner:   #1    🔴BNB   0.19  SHORT  A      166.5  Prob=0.19 | trend-aligned + conf=63% + VWAP✓ + Hur
+2026-03-14 23:26:04,920 [INFO] scanner:   #2    🔴AVAX  0.20  SHORT  A      165.1  Prob=0.20 | trend-aligned + conf=60% + VWAP✓ + Hur
+2026-03-14 23:26:04,920 [INFO] scanner:   #3    🔴ADA   0.26  SHORT  A      159.3  Prob=0.26 | trend-aligned + conf=49% + VWAP✓ + Hur
+2026-03-14 23:26:04,920 [INFO] scanner:   #4    🔴DOGE  0.28  SHORT  A      156.9  Prob=0.28 | trend-aligned + conf=44% + VWAP✓ + Hur
+2026-03-14 23:26:04,920 [INFO] scanner:   #5    🔴XRP   0.26  SHORT  A      148.6  Prob=0.26 | trend-aligned + conf=47% + Hurst=0.59↑
+2026-03-14 23:26:04,920 [INFO] scanner:   #6    🔴BTC   0.19  SHORT  B      116.3  Prob=0.19 | trend-aligned + conf=63% + regime:rang
+2026-03-14 23:26:04,920 [INFO] scanner:   #7    ⚪ETH   0.22  NONE   SKIP     0.0  Prob=0.22 | counter-trend + conf=56% + regime:rang
+2026-03-14 23:26:04,921 [INFO] scanner:   #8    ⚪SOL   0.15  NONE   SKIP     0.0  Prob=0.15 | counter-trend + conf=69% + Hurst=0.69↑
+2026-03-14 23:26:04,921 [INFO] scanner: ------------------------------------------------------------------------
+2026-03-14 23:26:04,921 [INFO] scanner:   Actionable: 6 / 8 signals
+2026-03-14 23:26:04,921 [INFO] scanner: ========================================================================
+2026-03-14 23:26:04,922 [INFO] bot:   ⛔ SKIP AVAX: max 3 open trades reached
+2026-03-14 23:26:04,922 [INFO] bot:   ⛔ SKIP DOGE: max 3 open trades reached
+2026-03-14 23:26:04,922 [INFO] bot:   ⛔ SKIP BTC: max 3 open trades reached
+2026-03-14 23:26:04,923 [INFO] bot: Scan #117 done. 8 signals, 6 actionable.
+2026-03-14 23:26:04,923 [INFO] bot: Next scan in 60s …
+2026-03-14 23:27:05,014 [INFO] data.pipeline: Fetching 10 bars of XRP/USDT:USDT 5m …
+2026-03-14 23:27:05,329 [INFO] data.pipeline: Fetching 10 bars of BNB/USDT:USDT 5m …
+2026-03-14 23:27:05,745 [INFO] data.pipeline: Fetching 10 bars of ADA/USDT:USDT 5m …
+2026-03-14 23:27:05,835 [INFO] bot:   📊 OPEN SELL XRP: entry=1.39 now=1.39 uPnL=$-0.22 net=$-0.85 (25m)
+2026-03-14 23:27:05,835 [INFO] bot:   📊 OPEN SELL ADA: entry=0.26 now=0.26 uPnL=$+0.60 net=$-0.02 (6m)
+2026-03-14 23:27:05,836 [INFO] bot:   📊 OPEN SELL BNB: entry=652.80 now=652.80 uPnL=$+0.00 net=$-0.62 (4m)
+2026-03-14 23:27:07,757 [INFO] scanner: ========================================================================
+2026-03-14 23:27:07,757 [INFO] scanner:   MARKET SCANNER — 8 symbols scanned
+2026-03-14 23:27:07,757 [INFO] scanner: ========================================================================
+2026-03-14 23:27:07,757 [INFO] scanner:   RANK  SYM     PROB   DIR    GRADE  SCORE  REASON
+2026-03-14 23:27:07,758 [INFO] scanner: ------------------------------------------------------------------------
+2026-03-14 23:27:07,758 [INFO] scanner:   #1    🔴BNB   0.19  SHORT  A      166.5  Prob=0.19 | trend-aligned + conf=63% + VWAP✓ + Hur
+2026-03-14 23:27:07,758 [INFO] scanner:   #2    🔴AVAX  0.20  SHORT  A      165.1  Prob=0.20 | trend-aligned + conf=60% + VWAP✓ + Hur
+2026-03-14 23:27:07,758 [INFO] scanner:   #3    🔴ADA   0.26  SHORT  A      159.3  Prob=0.26 | trend-aligned + conf=49% + VWAP✓ + Hur
+2026-03-14 23:27:07,758 [INFO] scanner:   #4    🔴DOGE  0.28  SHORT  A      156.9  Prob=0.28 | trend-aligned + conf=44% + VWAP✓ + Hur
+2026-03-14 23:27:07,758 [INFO] scanner:   #5    🔴XRP   0.26  SHORT  A      148.6  Prob=0.26 | trend-aligned + conf=47% + Hurst=0.59↑
+2026-03-14 23:27:07,758 [INFO] scanner:   #6    🔴BTC   0.19  SHORT  B      116.3  Prob=0.19 | trend-aligned + conf=63% + regime:rang
+2026-03-14 23:27:07,759 [INFO] scanner:   #7    ⚪ETH   0.22  NONE   SKIP     0.0  Prob=0.22 | counter-trend + conf=56% + regime:rang
+2026-03-14 23:27:07,759 [INFO] scanner:   #8    ⚪SOL   0.15  NONE   SKIP     0.0  Prob=0.15 | counter-trend + conf=69% + Hurst=0.69↑
+2026-03-14 23:27:07,759 [INFO] scanner: ------------------------------------------------------------------------
+2026-03-14 23:27:07,759 [INFO] scanner:   Actionable: 6 / 8 signals
+2026-03-14 23:27:07,759 [INFO] scanner: ========================================================================
+2026-03-14 23:27:07,760 [INFO] bot:   ⛔ SKIP AVAX: max 3 open trades reached
+2026-03-14 23:27:07,760 [INFO] bot:   ⛔ SKIP DOGE: max 3 open trades reached
+2026-03-14 23:27:07,760 [INFO] bot:   ⛔ SKIP BTC: max 3 open trades reached
+2026-03-14 23:27:07,760 [INFO] bot: Scan #118 done. 8 signals, 6 actionable.
+2026-03-14 23:27:07,761 [INFO] bot: Next scan in 60s …
