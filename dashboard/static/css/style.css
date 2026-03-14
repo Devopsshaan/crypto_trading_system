@@ -189,6 +189,10 @@ th.right, td.right { text-align:right; }
 .pos-direction.bull-tag { background:rgba(34,197,94,0.15); color:#4ade80; }
 .pos-direction.bear-tag { background:rgba(236,72,153,0.15); color:#f472b6; }
 
+.strat-badge { font-size:0.55rem; font-weight:700; padding:1px 5px; border-radius:3px; letter-spacing:1px; vertical-align:middle; margin-left:4px; }
+.scalp-badge { background:rgba(0,240,255,0.12); color:#00F0FF; }
+.swing-badge { background:rgba(245,158,11,0.12); color:#f59e0b; }
+
 .pos-pnl { font-family:var(--mono); font-size:1.3rem; font-weight:700; margin-bottom:4px; }
 .pos-pnl.positive { color:#22c55e; }
 .pos-pnl.negative { color:#ef4444; }

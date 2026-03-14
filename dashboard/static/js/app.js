@@ -287,7 +287,9 @@ async function loadLivePositions() {
         const countEl = $('liveCount');
         const totalEl = $('liveTotalPnl');
 
-        countEl.textContent = d.count;
+        const scalps = d.positions.filter(p => p.strategy !== 'SWING').length;
+        const swings = d.positions.filter(p => p.strategy === 'SWING').length;
+        countEl.textContent = swings > 0 ? `${scalps} scalp + ${swings} swing` : d.count;
         const tp = d.total_unrealized;
         totalEl.innerHTML = `uPnL: <span class="${tp >= 0 ? 'green' : 'red'}">${tp >= 0 ? '+' : ''}$${tp.toFixed(2)}</span>`;
 
@@ -324,9 +326,13 @@ async function loadLivePositions() {
 
             const priceDP = ep >= 100 ? 2 : ep >= 1 ? 4 : 6;
 
+            const stratBadge = p.strategy === 'SWING'
+                ? '<span class="strat-badge swing-badge">SWING</span>'
+                : '<span class="strat-badge scalp-badge">SCALP</span>';
+
             return `<div class="pos-card ${cardClass} ${winClass}">
                 <div class="pos-header">
-                    <span class="pos-symbol">${p.symbol}</span>
+                    <span class="pos-symbol">${p.symbol} ${stratBadge}</span>
                     <span class="pos-direction ${dirTag}">${dirIcon}</span>
                 </div>
                 <div class="pos-pnl ${pnlClass}">${pnlStr}</div>
